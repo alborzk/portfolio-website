@@ -15,15 +15,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-@font-face {
-	font-family: 'Montserrat-Bold';
-	src: url('/fonts/Montserrat-Bold.ttf');
-}
-
-@font-face {
-	font-family: 'Montserrat';
-	src: url('/fonts/Montserrat.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 @font-face {
 	font-family: 'Google Sans';
