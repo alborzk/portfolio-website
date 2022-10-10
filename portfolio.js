@@ -602,7 +602,7 @@ export const projects = [
 export const seoData = {
 	title: "Alborz Khakbazan",
 	description:
-		"A passionate Full Stack Web Developer and Blockchain Developer.",
+		"A computer science student skilled in Java and Web Development.",
 	author: "Alborz Khakbazan",
 	image: "img/icons/common/avatar.jpg",
 	url: "https://alborzk.me",
