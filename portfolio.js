@@ -20,7 +20,7 @@ export const socialLinks = {
 	url: "https://alborzk.me",
 	linkedin: "https://www.linkedin.com/in/alborzk/",
 	github: "https://github.com/alborzk",
-	instagram: "https://www.instagram.com/_alborzk_",
+	instagram: "https://www.instagram.com/_alborzk/",
 	facebook: "https://www.facebook.com/alborzkhakbazan2/",
 	twitter: "https://twitter.com/_alborzk",
 	medium: "https://medium.com/@alborzk",
