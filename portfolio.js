@@ -604,7 +604,7 @@ export const seoData = {
 	description:
 		"A passionate Full Stack Web Developer and Blockchain Developer.",
 	author: "Alborz Khakbazan",
-	image: "avatar.jpg",
+	image: "img/icons/common/avatar.jpg",
 	url: "https://alborzk.me",
 	keywords: [
 		"Alborz",
