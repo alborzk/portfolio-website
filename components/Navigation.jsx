@@ -172,7 +172,7 @@ const Navigation = () => {
 										>
 											<Icon icon="cib:medium-m"></Icon>
 											<span className="nav-link-inner--text d-lg-none ml-2">
-												Twitter
+												Medium
 											</span>
 										</NavLink>
 									</NavItem>
