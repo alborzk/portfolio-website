@@ -16,6 +16,7 @@
 
 */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 @font-face {
 	font-family: 'Google Sans';
@@ -49,6 +50,11 @@
 
 #section-title {
 	font-family: "Google Sans Black";
+	text-transform: capitalize;
+}
+
+#badge-title {
+	font-family: "Open Sans";
 	text-transform: capitalize;
 }
 

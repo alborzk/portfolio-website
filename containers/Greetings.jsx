@@ -14,17 +14,7 @@ const Greetings = () => {
 		<main>
 			<div className="position-relative">
 				<section className="section section-lg section-shaped pb-20">
-					<div className="shape bg-primary">
-						<span />
-						<span />
-						<span />
-						<span />
-						<span />
-						<span />
-						<span />
-						<span />
-						<span />
-					</div>
+					<div className="shape bg-primary"></div>
 					<Container className="py-lg-md d-flex">
 						<div className="col px-0 section">
 							<Row>
@@ -55,7 +45,7 @@ const Greetings = () => {
 								</Col>
 								<Col className="order-lg-1" lg="2">					
 								</Col>
-								<Col className="order-lg-1" lg="4">
+								<Col className="order-lg-1" lg="4">    
 									<Fade right duration={2000}>
 									<div className="content-center">
 										<img
@@ -63,16 +53,17 @@ const Greetings = () => {
 											style={{ width: "100%", borderRadius: "50%"}}
 											class="border border-primary"
 											alt=""
-											className="img-center img-fluid shadow shadow-lg--hover mb-4"
+											className="img-center img-fluid border border-primary shadow-lg--hover mt-4 mb-4"
 										>							
 										</img>
 									</div>
-									</Fade>							
+									</Fade>							 
 								</Col>								
 							</Row>
 						</div>
 					</Container>
 				</section>
+				{/* <section className="section-sm section-shaped pb-20"><div className="shape bg-dark"></div></section>      */}
 			</div>
 		</main>
 	);

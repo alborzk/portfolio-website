@@ -8,7 +8,7 @@ import { skillsSection } from "../portfolio";
 const Skills = () => {
 	return skillsSection && (
 		<Container className="text-center my-5 section">		
-			<Fade right duration={2000}>
+			<Fade duration={2000}>
 			<h1 className="display-3" id="section-title"><strong>{skillsSection.title}</strong></h1>			
 			<p className="lead my-7">{skillsSection.subTitle}</p>	
 			</Fade>

@@ -1,3 +1,4 @@
+import { faLeftLong } from "@fortawesome/free-solid-svg-icons";
 import emoji from "react-easy-emoji";
 
 export const greetings = {
@@ -17,6 +18,7 @@ export const contact = {};
 
 export const socialLinks = {
 	url: "https://alborzk.me",
+	email: "mailto:alvisk1313@gmail.com",
 	linkedin: "https://www.linkedin.com/in/alborzk/",
 	github: "https://github.com/alborzk",
 	instagram: "https://www.instagram.com/_alborzk/",
@@ -144,22 +146,22 @@ export const educationInfo = [
 		descBullets: [
 		],
 	},
-	// {
+	// 	{
 	// 	img: "/img/icons/common/um-icon.jpg",
 	// 	schoolName: emoji("University of Manitoba"),
-	// 	subHeader: "BSc. in Computer Eng.",
-	// 	duration: "Sep 2019 - May 2022",
-	// 	desc: "Transferred to Computer Science",
+	// 	subHeader: "BSc. in Computer Engineering",
+	// 	duration: "Sep 2019 - May 2022 (Transferred)",
 	// 	grade: "Leader of Tomorrow Scholar",
 	// 	grade2: "President's Scholar",
 	// 	descBullets: [
 	// 	],
-	// },	
+	// },
+	// {
 		{
 		img: "/img/icons/common/vmhs-icon.png",
 		schoolName: emoji("Vincent Massey High School"),
-		subHeader: "Diploma",
-		duration: "Sep 2015 - Jun 2019",
+		subHeader: "High School Diploma",
+		duration: "September 2015 - June 2019",
 		grade: "Honor Roll",
 		descBullets: [
 		],
@@ -261,11 +263,11 @@ export const workSection = {
 	],
 	}
 
-	export const hobbies = [
+export const hobbies = [
 	{
 		name: "Basketball",
 		icon: "ic:twotone-sports-basketball",		
-		desc: "I love to play with friends, and I'm just about always up to date on the NBA season. Go Raptors!",
+		desc: "I love to play with friends, and I'm just about always up to date on the current NBA season. Go Raptors, and go Heat!"
 	},	
 	{
 		name: "Gym",
@@ -297,7 +299,7 @@ export const projects = [
 				{ toolName: "Vercel", toolIcon: "ion:logo-vercel", },																		
 			],				
 		desc: "This is the website you're currently viewing! It's probably my favorite project I've worked on so far.",
-		github: "https:/alborzk.me",
+		github: "https://github.com/alborzk/portfolio-website",
 		demo: "https://alborzk.me",
 	},
 	{
@@ -312,7 +314,8 @@ export const projects = [
 				{ toolName: "Git", toolIcon: "bxl:git", },																						
 			],				
 		desc: "View your clothes, organize them by label, and plan your future outfits all from your Android device!",
-		github: "https://github.com/alborzk/portfolio-website",
+		github: "https://github.com/alborzk/virtual-closet",
+		site: "https://alborzk.github.io/virtual-closet/website/index.html",
 	},
 	{
 		name: "FocusTime",
@@ -354,6 +357,32 @@ export const projects = [
 		desc: "A horizontal prototype - virtually build your properties, create tasks that need to get done, and view them by walking through your rooms!",
 		github: "https://github.com/alborzk/robo-run",
 	},
+];
+
+export const recommendations = [
+	{ name: "VSCode", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/vscode.png", link: "https://code.visualstudio.com/" },
+	{ name: "IntelliJ", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/intellij.png", link: "https://www.jetbrains.com/idea/" },
+	{ name: "PyCharm", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/pycharm.png", link: "https://www.jetbrains.com/pycharm/" },
+	{ name: "Copilot", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/copilot.png", link: "https://github.com/features/copilot" },
+	{ name: "Scribe", subtitle: "Image Capture", logo: "img/icons/common/recommendations/scribe.png", link: "https://scribehow.com/" },
+	{ name: "Gyazo", subtitle: "Image Capture", logo: "img/icons/common/recommendations/gyazo.png", link: "https://gyazo.com/" },
+	{ name: "Spark", subtitle: "Communication", logo: "img/icons/common/recommendations/spark.png", link: "https://sparkmailapp.com/"},	
+	{ name: "Typeform", subtitle: "Forms", logo: "img/icons/common/recommendations/typeform.png", link: "https://www.typeform.com/" },
+	{ name: "Vercel", subtitle: "Web Hosting", logo: "img/icons/common/recommendations/vercel.jpg", link: "https://vercel.com/" },
+	{ name: "NameCheap", subtitle: "Web Hosting", logo: "img/icons/common/recommendations/namecheap.png", link: "https://www.namecheap.com/hosting/" },	
+	{ name: "Magic Eraser", subtitle: "Utilities", logo: "img/icons/common/recommendations/eraser.svg", link: "https://www.magiceraser.io/"},
+	{ name: "Squoosh", subtitle: "Utilities", logo: "img/icons/common/recommendations/squoosh.jpg", link: "https://squoosh.app/" },	
+	{ name: "Figma", subtitle: "Prototyping", logo: "img/icons/common/recommendations/figma.png", link: "https://www.figma.com/" },
+	{ name: "Iconify", subtitle: "Resources", logo: "img/icons/common/recommendations/iconify.png", link: "https://iconify.design/" },
+	{ name: "Blush", subtitle: "Resources", logo: "img/icons/common/recommendations/blush.jpg", link: "https://blush.design/"},	
+	{ name: "Haikei", subtitle: "Resources", logo: "img/icons/common/recommendations/haikei.png", link: "https://haikei.app/" },
+	{ name: "Canva", subtitle: "Resources", logo: "img/icons/common/recommendations/canva.jpg", link: "https://https://www.canva.com/"},	
+	{ name: "Personas", subtitle: "Resources", logo: "img/icons/common/recommendations/personas.png", link: "https://personas.draftbit.com/" },
+	{ name: "Unsplash", subtitle: "Resources", logo: "img/icons/common/recommendations/unsplash.png", link: "https://unsplash.com/"},
+	{ name: "Dall-E", subtitle: "Resources", logo: "img/icons/common/recommendations/dalle.png", link: "https://openai.com/dall-e-2/"},
+	// { name: "Undraw", subtitle: "Resources", logo: "img/icons/common/recommendations/undraw.png", link: "https://undraw.co/" },
+	// { name: "Conic", subtitle: "Resources", logo: "img/icons/common/recommendations/conic.png", link: "https://conic.style/" },
+	// { name: "Shape Divider", subtitle: "Resources", logo: "img/icons/common/recommendations/shapediv.png", link: "https://shapedivider.app/" },
 ];
 
 // export const feedbacks = [

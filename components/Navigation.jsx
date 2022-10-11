@@ -81,7 +81,39 @@ const Navigation = () => {
 								className="align-items-lg-center ml-lg-auto"
 								navbar
 							>
-								{socialLinks.facebook && (
+								{socialLinks.email && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="Email Me!"
+											className="nav-link-icon"
+											href={socialLinks.email}
+											target="_blank"
+										>
+											<Icon icon="ant-design:mail-filled" width="16px" height="16px"></Icon>
+											<span className="nav-link-inner--text d-lg-none ml-2">
+												Email Me!
+											</span>
+										</NavLink>
+									</NavItem>
+								)}								
+								{socialLinks.twitter && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="Twitter"
+											className="nav-link-icon"
+											href={socialLinks.twitter}
+											target="_blank"
+										>
+											<Icon icon="fa-brands:twitter" width="16px" height="16px"></Icon>
+											<span className="nav-link-inner--text d-lg-none ml-2">
+												Twitter
+											</span>
+										</NavLink>
+									</NavItem>
+								)}
+{								socialLinks.facebook && (
 									<NavItem>
 										<NavLink
 											rel="noopener"
@@ -90,13 +122,13 @@ const Navigation = () => {
 											href={socialLinks.facebook}
 											target="_blank"
 										>
-											<Icon icon="bi:facebook"></Icon>
+											<Icon icon="bi:facebook" width="16px" height="16px"></Icon>
 											<span className="nav-link-inner--text d-lg-none ml-2">
 												Facebook
 											</span>
 										</NavLink>
 									</NavItem>
-								)}
+								)}								
 								{socialLinks.instagram && (
 									<NavItem>
 										<NavLink
@@ -106,13 +138,13 @@ const Navigation = () => {
 											href={socialLinks.instagram}
 											target="_blank"
 										>
-											<Icon icon="bi:instagram"></Icon>
+											<Icon icon="bi:instagram" width="16px" height="16px"></Icon>
 											<span className="nav-link-inner--text d-lg-none ml-2">
 												Instagram
 											</span>
 										</NavLink>
 									</NavItem>
-								)}
+								)}																
 								{socialLinks.github && (
 									<NavItem>
 										<NavLink
@@ -122,7 +154,7 @@ const Navigation = () => {
 											href={socialLinks.github}
 											target="_blank"
 										>
-											<Icon icon="bi:github"></Icon>
+											<Icon icon="bi:github" width="16px" height="16px"></Icon>
 											<span className="nav-link-inner--text d-lg-none ml-2">
 												Github
 											</span>
@@ -138,25 +170,9 @@ const Navigation = () => {
 											href={socialLinks.linkedin}
 											target="_blank"
 										>
-											<Icon icon="fa-brands:linkedin-in"></Icon>
+											<Icon icon="fa-brands:linkedin-in" width="16px" height="16px"></Icon>
 											<span className="nav-link-inner--text d-lg-none ml-2">
 												Linkedin
-											</span>
-										</NavLink>
-									</NavItem>
-								)}
-								{socialLinks.twitter && (
-									<NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Twitter"
-											className="nav-link-icon"
-											href={socialLinks.twitter}
-											target="_blank"
-										>
-											<Icon icon="fa-brands:twitter"></Icon>
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Twitter
 											</span>
 										</NavLink>
 									</NavItem>
@@ -170,27 +186,13 @@ const Navigation = () => {
 											href={socialLinks.medium}
 											target="_blank"
 										>
-											<Icon icon="cib:medium-m"></Icon>
+											<Icon icon="cib:medium-m" width="16px" height="16px"></Icon>
 											<span className="nav-link-inner--text d-lg-none ml-2">
 												Medium
 											</span>
 										</NavLink>
 									</NavItem>
 								)}
-								{/* <NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Medium"
-											className="nav-link-icon"
-											href={socialLinks.medium}
-											target="_blank"
-										>
-											<p className="text-white fw-bold ls-1 mt-3">{"Text"}</p>
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Text
-											</span>
-										</NavLink>
-									</NavItem>								 */}
 							</Nav>
 						</UncontrolledCollapse>
 					</Container>

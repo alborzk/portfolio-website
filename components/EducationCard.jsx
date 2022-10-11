@@ -6,9 +6,9 @@ import { Fade } from "react-reveal";
 const EducationCard = ({ education }) => {
 	return (
 		<Fade left duration={2000} >
-			<Card className="card-lift--hover shadow mt-4 rounded-4">
+			<Card className="card-lift--hover mt-4 rounded-4">
 				<CardBody>
-					<div className="d-flex px-3">
+					<div className="px-3 text-center">
 						<img
 							src={education.img}
 							style={{ 
@@ -17,7 +17,7 @@ const EducationCard = ({ education }) => {
 								borderRadius: "20%",
 								}}
 							alt=""
-							className=" img-center img-fluid shadow shadow-lg--hover mb-4"
+							className=" img-center img-fluid mb-4"
 						>							
 						</img>
 						<div className="pl-4">
@@ -35,12 +35,12 @@ const EducationCard = ({ education }) => {
 									: null}
 							</ul>
 							{ education.grade && (
-								<Badge color="primary" className="mr-1 text-capitalize">
+								<Badge color="primary" className="mr-1" id="badge-title">
 									{education.grade}
 								</Badge>
 							)}
 							{ education.grade2 && (
-								<Badge color="primary" className="mr-1 text-capitalize">
+								<Badge color="primary" className="mr-1" id="badge-title">
 									{education.grade2}
 								</Badge>
 								

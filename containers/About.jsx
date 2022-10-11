@@ -9,7 +9,7 @@ const About = () => {
 	return aboutSection && (
 		<Container className="my-5 section">
                 <div>
-                <Fade left duration={2000}>
+                <Fade right duration={2000}>
                     <h1 className="text-center display-3 pb-3" id="section-title">
                         <strong>{aboutSection.title}</strong></h1>
                     {/* <div class="w-75 p-3 mx-8" style="background-color: #eee;">
@@ -21,7 +21,7 @@ const About = () => {
                             {desc}</h4>;
                     })}
                 </Fade>
-            </div>                 
+            </div>       
         </Container>
     );
     };
