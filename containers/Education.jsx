@@ -8,7 +8,7 @@ const Education = () => {
 	return educationInfo && (
 		<section className="section pb-100 bg-primary">
 			<Container className="text-center">	
-			<Fade left duration={2000}>
+			<Fade duration={2000}>
 			<h1 className="text-white my-4 display-3" id="section-title"><strong>{"Education"}</strong></h1>
 			</Fade>
 				<Row className="row-grid align-items-center text-justify">

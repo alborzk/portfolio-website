@@ -1,4 +1,3 @@
-import { faLeftLong } from "@fortawesome/free-solid-svg-icons";
 import emoji from "react-easy-emoji";
 
 export const greetings = {

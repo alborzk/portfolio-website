@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Card, Col, Row, Container } from "reactstrap";
-
+import { Fade, Bounce } from "react-reveal";
 import SocialLinks from "../components/SocialLinks";
 import Image from "next/image";
 
@@ -9,6 +9,7 @@ const GithubProfileCard = ({ prof }) => {
 	return (
 		<Card className="section-lg bg-dark shadow-lg border-0">
 			<Container className="">
+				<Bounce>
 				<div className="p-2">
 					<Row className="">
 						<Col className="order-lg-2" lg="4">
@@ -33,6 +34,7 @@ const GithubProfileCard = ({ prof }) => {
 						</Col>
 					</Row>
 				</div>
+				</Bounce>
 			</Container>
 		</Card>
 	);

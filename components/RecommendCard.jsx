@@ -10,7 +10,7 @@ import {
     Row,
 } from "reactstrap";
 
-import { Fade } from "react-reveal";
+import { Fade, Bounce } from "react-reveal";
 import { Icon } from "@iconify/react";
 import DisplayLottie from "./DisplayLottie";
 
@@ -18,7 +18,7 @@ const RecommendCard = ({ data }) => {
 	return (
 
 		<Col lg="3" className="my-4">
-			<Fade left duration={2000}>
+			<Fade duration={2000}>
 				<Card
 					style={{ flex: 1 }}
 					className="card-lift--hover mb-2 text-center rounded-4"

@@ -9,12 +9,12 @@ const Work = () => {
 	return workSection && (
 		<section className="">
 			<Container className="text-center my-5 section section-lg">	
-			<Fade right duration={2000}><h1 className="display-3" id="section-title"><strong>{workSection.title}</strong></h1></Fade>
+			<Fade duration={2000}><h1 className="display-3" id="section-title"><strong>{workSection.title}</strong></h1></Fade>
 			{workSection.data.map((section, index) => {
 				return (
 					<Row className="pt-5 text-justify" key={index}>
 						<Col lg="4" className="order-2 order-lg-1">
-							<Fade left duration={2000}>
+							<Fade duration={2000}>
 								{/* <div className="d-flex justify-content-center flex-wrap mb-2">
 									<img
 										src={section.companylogo}
@@ -92,7 +92,7 @@ const Work = () => {
 			<Fade top duration={2000}>
 				<h4 className="mb-1 mt-lg-6" id="section-title"><strong>See more!</strong></h4>
 			</Fade>
-			<Fade bottom duration={2000}><Row lg="4"><Col>
+			<Fade duration={2000}><Row lg="4"><Col>
 			<Button className="btn-primary btn-icon mt-3 mb-3 ml-1 rounded-4" color="default" href={workSection.resumeLink}>
 					<Icon icon="ri:file-paper-fill" width="24px" height="24px"></Icon>
 					<span className="btn-inner--text text-capitalize">

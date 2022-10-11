@@ -38,9 +38,9 @@ const Navigation = () => {
 				>
 					<Container>
 						<NavbarBrand href="/" className="mr-lg-5">
-							<h2 className="text-white" id="nav-title">
+							<h3 className="text-white" id="nav-title">
 								{greetings.name}
-							</h2>
+							</h3>
 						</NavbarBrand>
 						<button
 							className="navbar-toggler"
@@ -85,14 +85,14 @@ const Navigation = () => {
 									<NavItem>
 										<NavLink
 											rel="noopener"
-											aria-label="Email Me!"
+											aria-label="Email"
 											className="nav-link-icon"
 											href={socialLinks.email}
 											target="_blank"
 										>
 											<Icon icon="ant-design:mail-filled" width="16px" height="16px"></Icon>
 											<span className="nav-link-inner--text d-lg-none ml-2">
-												Email Me!
+												Email
 											</span>
 										</NavLink>
 									</NavItem>

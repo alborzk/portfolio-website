@@ -20,7 +20,7 @@ const Greetings = () => {
 							<Row>
 								<Col lg="6">
 								<Fade left duration={2000}>
-									<h1 className="fs-2 mt-5 mb-3 text-white fw-bold">
+									<h1 className="fs-3 mt-5 mb-3 text-white fw-bold">
 									{greetings.title + " "}
 									</h1>
 									{greetings.desc.map((desc, i) => {
@@ -50,10 +50,9 @@ const Greetings = () => {
 									<div className="content-center">
 										<img
 											src={"/img/icons/common/avatar.jpg"}
-											style={{ width: "100%", borderRadius: "50%"}}
-											class="border border-primary"
+											style={{ width: "80%", borderRadius: "50%"}}
 											alt=""
-											className="img-center img-fluid border border-primary shadow-lg--hover mt-4 mb-4"
+											className="img-center shadow--hover mt-6 mb-4 mx-4"
 										>							
 										</img>
 									</div>

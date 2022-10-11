@@ -1,6 +1,6 @@
 import { Icon } from "@iconify/react";
 import React, { Fragment } from "react";
-import { Fade } from "react-reveal";
+import { Fade, Bounce } from "react-reveal";
 import { Col, Container, Row, UncontrolledTooltip } from "reactstrap";
 import DisplayLottie from "../components/DisplayLottie";
 import { skillsSection } from "../portfolio";
@@ -25,7 +25,7 @@ const Skills = () => {
 							</Fade>
 						</Col>
 						<Col lg="6" className="order-1 order-lg-2">
-							<Fade right duration={2000}>
+							<Fade duration={2000}>
 								<h3 className="h3 mb-2" id="section-title"><strong>{section.title}</strong></h3>
 								<div className="d-flex justify-content-center flex-wrap mb-2">
 									{section.softwareSkills.map((skill, i) => {

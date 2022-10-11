@@ -16,7 +16,7 @@ import DisplayLottie from "./DisplayLottie";
 const HobbiesCard = ({ data }) => {
 	return (
 		<Col lg="3" className="my-4">
-			<Fade left duration={2000}>
+			<Fade duration={2000}>
 				<Card
 					style={{ flex: 1 }}
 					className="card-lift--hover mb-3 text-center rounded-4"
