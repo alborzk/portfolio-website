@@ -3,10 +3,11 @@ import emoji from "react-easy-emoji";
 export const greetings = {
 	name: "Alborz Khakbazan",
 	title: "Welcome!",
-	d1:
-		emoji("Thanks for checking out my portfolio! I'm a 4th year Computer Science student with a wide array of programming knowledge. This website was coded using React and Bootstrap by me! 😄"),
-	d3: "Currently, I'm looking for co-op work for Winter 2023. Please continue reading to learn more about what I can offer!",
-		resumeLink:
+	desc: [
+		emoji("Thanks for checking out my portfolio! I'm a 4th year computer science student based in Winnipeg, Canada with a wide array of programming knowledge. This website was coded using React, Next.js and Bootstrap by me! 😄"),
+		"Currently, I'm looking for co-op work for Winter 2023. Please continue reading to learn more about me and what I can offer!",
+	],
+	resumeLink:
 		"https://drive.google.com/file/d/14HIUatHcPad9_CQO7oZSLg4EUvGFFu3J/view?usp=sharing",
 };
 
@@ -28,15 +29,12 @@ export const socialLinks = {
 
 export const aboutSection = {
 	title: "The Story So Far...",
-	lottieAnimationFile: "/lottie/me.json",
-	// subTitle:
-	// 	"Broad knowledge of programming languages and frameworks, with a focus on Java and Web Dev",
-	paragraphs: [
+	lottie: "/lottie/me.json",
+	desc: [
 			"I've always looked up to the big players in tech.",
 			"But growing up, I've also become more and more fascinated by the worlds of art, music, and fashion.",
 			"My goal is to bring some of the values I admire from those worlds into programming - focusing on user-oriented design that is refined and innovative, while still accessible for the average person.",
-			"I am extremely passionate about my values, and I love working on projects that push boundaries and introduce new concepts to the world. For 7+ years now, I've been practicing my craft and I'm always looking for new opportunities to learn and grow.",
-			"",
+			"I am extremely passionate about my values, and I love working on projects that push boundaries and introduce new concepts to the world. I'm always looking for new opportunities to learn and grow!",
 	],		
 }
 
@@ -55,50 +53,17 @@ export const skillsSection = {
 				emoji(" ▪️ Effective prototyping strategies, architecture and software design"),
 			],
 			softwareSkills: [
-				{
-					skillName: "Java",
-					fontAwesomeClassname: "logos:java",
-				},
-				{
-					skillName: "Python",
-					fontAwesomeClassname: "logos:python",
-				},
-				{
-					skillName: "Git",
-					fontAwesomeClassname: "logos:git-icon",
-				},				
-				{
-					skillName: "Figma",
-					fontAwesomeClassname: "logos:figma",
-				},										
-				{
-					skillName: "Android Studio",
-					fontAwesomeClassname: "logos:android-icon",
-				},					
-				{
-					skillName: "Unity",
-					fontAwesomeClassname: "logos:unity",
-				},											
-				{
-					skillName: "IntelliJ",
-					fontAwesomeClassname: "logos:intellij-idea",
-				},	
-				{
-					skillName: "PyCharm",
-					fontAwesomeClassname: "logos:pycharm",
-				},	
-				// {
-				// 	skillName: "Eclipse",
-				// 	fontAwesomeClassname: "logos:eclipse-icon",
-				// },														
-				{
-					skillName: "JUnit5",
-					fontAwesomeClassname: "simple-icons:junit5",
-				},																													
-				// {
-				// 	skillName: "Gradle",
-				// 	fontAwesomeClassname: "vscode-icons:file-type-gradle2",
-				// },				
+				{ skillName: "Java", fontAwesomeClassname: "logos:java", },
+				{ skillName: "Python", fontAwesomeClassname: "logos:python", },
+				{ skillName: "Git", fontAwesomeClassname: "logos:git-icon", },				
+				{ skillName: "Figma", fontAwesomeClassname: "logos:figma", },										
+				{ skillName: "Android Studio", fontAwesomeClassname: "logos:android-icon", },					
+				{ skillName: "Unity", fontAwesomeClassname: "logos:unity", },											
+				{ skillName: "IntelliJ", fontAwesomeClassname: "logos:intellij-idea", },	
+				{ skillName: "PyCharm", fontAwesomeClassname: "logos:pycharm", },	
+				// { skillName: "Eclipse", fontAwesomeClassname: "logos:eclipse-icon", },														
+				{ skillName: "JUnit5", fontAwesomeClassname: "simple-icons:junit5", },																													
+				// { skillName: "Gradle", fontAwesomeClassname: "vscode-icons:file-type-gradle2", },				
 			],
 		},
 		{
@@ -111,162 +76,60 @@ export const skillsSection = {
 					emoji(" ▪️ Excellent communicator for API documentation "),		
 			],
 			softwareSkills: [
-				{
-					skillName: "HTML-5",
-					fontAwesomeClassname: "vscode-icons:file-type-html",
-				},
-				{
-					skillName: "CSS-3",
-					fontAwesomeClassname: "vscode-icons:file-type-css",
-				},
-				{
-					skillName: "JavaScript",
-					fontAwesomeClassname: "logos:javascript",
-				},
-				// {
-				// 	skillName: "TypeScript",
-				// 	fontAwesomeClassname: "logos:typescript-icon",
-				// },				
-				{
-					skillName: "React",
-					fontAwesomeClassname: "logos:react",
-				},
-				{
-					skillName: "Next",
-					fontAwesomeClassname: "logos:nextjs-icon",
-				},		
-				{
-					skillName: "Bootstrap",
-					fontAwesomeClassname: "logos:bootstrap",
-				},				
-				{
-					skillName: "Bulma",
-					fontAwesomeClassname: "logos:bulma",
-				},						
-				{
-					skillName: "VSCode",
-					fontAwesomeClassname: "vscode-icons:file-type-vscode",
-				},				
-				{
-					skillName: "Yarn",
-					fontAwesomeClassname: "vscode-icons:file-type-yarn",
-				},				
-				// {
-				// 	skillName: "NPM",
-				// 	fontAwesomeClassname: "logos:npm-icon",
-				// },
+				{ skillName: "HTML-5", fontAwesomeClassname: "vscode-icons:file-type-html", },
+				{ skillName: "CSS-3", fontAwesomeClassname: "vscode-icons:file-type-css", },
+				{ skillName: "JavaScript", fontAwesomeClassname: "logos:javascript", },
+				// { skillName: "TypeScript", fontAwesomeClassname: "logos:typescript-icon", },				
+				{ skillName: "React", fontAwesomeClassname: "logos:react", },
+				{ skillName: "Next", fontAwesomeClassname: "logos:nextjs-icon", },		
+				{ skillName: "Bootstrap", fontAwesomeClassname: "logos:bootstrap", },				
+				{ skillName: "Bulma", fontAwesomeClassname: "logos:bulma", },						
+				{ skillName: "VSCode", fontAwesomeClassname: "vscode-icons:file-type-vscode", },				
+				{ skillName: "Yarn", fontAwesomeClassname: "vscode-icons:file-type-yarn", },				
+				// { skillName: "NPM", fontAwesomeClassname: "logos:npm-icon", },
 			],
 		},
 		{
 			title: "Systems & Databases",
-			lottieAnimationFile: "/lottie/skills/systems.json", // Path of Lottie Animation JSON File
+			lottieAnimationFile: "/lottie/skills/systems.json",
 			skills: [
 				emoji(" ▪️ Solid understanding of computer organization and low-level programming"),
 				emoji(" ▪️ Experience constructing relational databases and SQL queries"),
 				emoji(" ▪️ Practiced smart database design via ER diagrams and normalization"),					
 			],
 			softwareSkills: [
-				{
-					skillName: "C",
-					fontAwesomeClassname: "noto-v1:letter-c",
-				},
-				{
-					skillName: "Shell",
-					fontAwesomeClassname: "vscode-icons:file-type-powershell",
-				},	
-				{
-					skillName: "SQL",
-					fontAwesomeClassname: "vscode-icons:file-type-sql",
-				},				
-				{
-					skillName: "Neo4J",
-					fontAwesomeClassname: "simple-icons:neo4j",
-				},	
-				{
-					skillName: "MySQL",
-					fontAwesomeClassname: "vscode-icons:file-type-mysql",
-				},	
-				{
-					skillName: "Assembly",
-					fontAwesomeClassname: "vscode-icons:file-type-assembly",
-				},		
-				{
-					skillName: "Prolog",
-					fontAwesomeClassname: "vscode-icons:file-type-prolog",
-				},																																			
-				{
-					skillName: "Drawio",
-					fontAwesomeClassname: "vscode-icons:file-type-drawio",
-				},																							
+				{ skillName: "C", fontAwesomeClassname: "noto-v1:letter-c",},
+				{ skillName: "Shell", fontAwesomeClassname: "vscode-icons:file-type-powershell", },	
+				{ skillName: "SQL", fontAwesomeClassname: "vscode-icons:file-type-sql", },				
+				{ skillName: "Neo4J", fontAwesomeClassname: "simple-icons:neo4j", },	
+				{ skillName: "MySQL", fontAwesomeClassname: "vscode-icons:file-type-mysql", },	
+				{ skillName: "Assembly", fontAwesomeClassname: "vscode-icons:file-type-assembly", },		
+				{ skillName: "Prolog", fontAwesomeClassname: "vscode-icons:file-type-prolog", },																																			
+				{ skillName: "Drawio", fontAwesomeClassname: "vscode-icons:file-type-drawio", },																							
 			],
 		},
-				{
+		{
 			title: "On My Radar",
 			lottieAnimationFile: "/lottie/skills/radar.json",
 			skills: [
 				emoji("I haven't worked with these technologies yet, but I'm eager to! Hopefully you'll see them in one of the sections above soon!"),
 			],
 			softwareSkills: [
-				{
-					skillName: "Tailwind",
-					fontAwesomeClassname: "logos:tailwindcss-icon",
-				},				
-				{
-					skillName: "Django",
-					fontAwesomeClassname: "logos:django-icon",
-				},
-				{
-					skillName: "Angular",
-					fontAwesomeClassname: "logos:angular-icon",
-				},													
-				{
-					skillName: "Scala",
-					fontAwesomeClassname: "logos:scala",
-				},
-				{
-					skillName: "Go",
-					fontAwesomeClassname: "logos:go",
-				},																											
-				{
-					skillName: "C Sharp",
-					fontAwesomeClassname: "vscode-icons:file-type-csharp2",
-				},
-				{
-					skillName: "C Plus Plus",
-					fontAwesomeClassname: "logos:c-plusplus",
-				},				
-				{
-					skillName: "MongoDB",
-					fontAwesomeClassname: "logos:mongodb-icon",
-				},		
-				{
-					skillName: "PostgreSQL",
-					fontAwesomeClassname: "logos:postgresql",
-				},
-				{
-					skillName: "Firebase",
-					fontAwesomeClassname: "logos:firebase",
-				},																								
-				// {
-				// 	skillName: "OpenGL",
-				// 	fontAwesomeClassname: "logos:opengl",
-				// },
-				// {
-				// 	skillName: "Processing",
-				// 	fontAwesomeClassname: "logos:processing",
-				// },				
-				{
-					skillName: "Kotlin",
-					fontAwesomeClassname: "logos:kotlin-icon",
-				},
-				{
-					skillName: "AWS",
-					fontAwesomeClassname: "logos:aws",
-				},				
-				// {
-				// 	skillName: "Arduino",
-				// 	fontAwesomeClassname: "vscode-icons:file-type-arduino",
-				// },											
+				{ skillName: "Tailwind", fontAwesomeClassname: "logos:tailwindcss-icon", },				
+				{ skillName: "Django", fontAwesomeClassname: "logos:django-icon", },
+				{ skillName: "Angular", fontAwesomeClassname: "logos:angular-icon", },													
+				{ skillName: "Scala", fontAwesomeClassname: "logos:scala", },
+				{ skillName: "Go", fontAwesomeClassname: "logos:go", },																											
+				{ skillName: "C Sharp", fontAwesomeClassname: "vscode-icons:file-type-csharp2", },
+				{ skillName: "C Plus Plus", fontAwesomeClassname: "logos:c-plusplus", },				
+				{ skillName: "MongoDB", fontAwesomeClassname: "logos:mongodb-icon", },		
+				{ skillName: "PostgreSQL", fontAwesomeClassname: "logos:postgresql", },
+				{ skillName: "Firebase", fontAwesomeClassname: "logos:firebase", },																								
+				// { skillName: "OpenGL", fontAwesomeClassname: "logos:opengl", },
+				// { skillName: "Processing", fontAwesomeClassname: "logos:processing", },				
+				{ skillName: "Kotlin", fontAwesomeClassname: "logos:kotlin-icon", },
+				{ skillName: "AWS", fontAwesomeClassname: "logos:aws", },				
+				// { skillName: "Arduino", fontAwesomeClassname: "vscode-icons:file-type-arduino", },											
 			],				
 		},
 	],
@@ -278,12 +141,22 @@ export const educationInfo = [
 		schoolName: emoji("University of Manitoba"),
 		subHeader: "BSc. in Computer Science (Co-Op)",
 		duration: "Sep 2019 - Present (Feb 2025 Expected)",
-		desc: "GPA: 3.44",
 		grade: "Leader of Tomorrow Scholar",
 		grade2: "President's Scholar",
 		descBullets: [
 		],
 	},
+	// {
+	// 	img: "/img/icons/common/um-icon.jpg",
+	// 	schoolName: emoji("University of Manitoba"),
+	// 	subHeader: "BSc. in Computer Eng.",
+	// 	duration: "Sep 2019 - May 2022",
+	// 	desc: "Transferred to Computer Science",
+	// 	grade: "Leader of Tomorrow Scholar",
+	// 	grade2: "President's Scholar",
+	// 	descBullets: [
+	// 	],
+	// },	
 		{
 		img: "/img/icons/common/vmhs-icon.png",
 		schoolName: emoji("Vincent Massey High School"),
@@ -309,9 +182,9 @@ export const workSection = {
 						title: "Research Student",
 						duration: "May 2020 - Sep 2022",
 						responsibilities: [
-							emoji(" ▪️ At AAFC, I gathered data for 20+ crop research studies, helping to develop new Agronomic methods for Canadian farmers!"),
+							emoji(" ▪️ At AAFC, I gathered data for 20+ crop research studies, helping to develop new Agronomy methods for Canadian farmers!"),
 							emoji(" ▪️ I learned about agricultural fieldwork with a close-knit group of students, working together to ensure that our gathered data was accurate and collected at the appropriate time."),
-							emoji(" ▪️ I also composed a number of literature reviews, working directly with researchers to aid them in writing scientific papers!"),
+							emoji(" ▪️ I also composed a number of literature reviews, working directly with researchers to aid in writing scientific papers!"),
 						],
 					}
 			],
@@ -330,18 +203,18 @@ export const workSection = {
 						title: "Graduation Head Director",
 						duration: "Sep 2020 - Aug 2021",
 						responsibilities: [
-							emoji(" ▪️ In my second year of university, I directed a small team of fellow engineering students to fund and organize the ceremonies for 150+ graduating engineers!"),
-							emoji(" ▪️ I represented the Graduation directorship within UMES, formally speaking to 80+ members during meetings and casting important votes on its behalf."),
-							emoji(" ▪️ I also connected with company sponsorships and maintained professional relationships via email to ensure funds for grad, even during the pandemic!"),							
+							emoji(" ▪️ In my second year, I directed a small team of fellow engineering students to fund and organize Graduation ceremonies for 150+ graduating engineers!"),
+							emoji(" ▪️ I represented the directorship within UMES, formally speaking to 80+ members during meetings and casting important votes on its behalf."),
+							emoji(" ▪️ I also connected with sponsors and maintained professional relationships to keep our funding secure, even throughout the pandemic!"),							
 						],
 					},
 					{
 						title: "First Year Committee Director",
 						duration: "Sep 2019 - Aug 2020",
 						responsibilities: [
-							emoji(" ▪️ Led a team of first-year engineering students, planning and organizing events for 800+ other students within the faculty"),
-							emoji(" ▪️ Acted as the representative for 300+ first-year students in the faculty, speaking on their behalf at meetings and learning about the hierarchy and procedures within the Engineering Society"),
-							emoji(" ▪️ Ushered the planning for events such as Bob Ross Paint Night and November Nintendo Night, which had incredible turnouts and were executed without issue"),
+							emoji(" ▪️ In my first year, I led a team of fellow freshmen, planning and organizing events for 800+ others within the faculty!"),
+							emoji(" ▪️ I acted as the representative for 300+ engineering freshmen, speaking on their behalf at meetings and learning about the formal procedures within UMES."),
+							emoji(" ▪️ I ushered the planning for fun events such as our Bob Ross Paint Night and November Nintendo Night, which had incredible turnouts and were executed with no issues!"),
 						],
 					}
 			],
@@ -354,29 +227,20 @@ export const workSection = {
 						title: "Team Leader",
 						duration: "Jul 2018 - Sep 2020",
 						responsibilities: [
-							emoji(" ▪️ Independently ran the store during the day, fulfilling orders while also multitasking to prepare the store and its inventory for the supper rush"),
-							emoji(" ▪️ Spearheaded supper rushes under incredible pressure, often preparing 200+ items in an hour along with a team of 3-4 others"),
-							emoji(" ▪️ Managed the store and its employees, ensuring orders were consistently high quality and ready under target numbers"),
+							emoji(" ▪️ After being promoted - I ran the store during the day, fulfilling orders while also multitasking to prepare the store and its inventory for the supper rush."),
+							emoji(" ▪️ I spearheaded supper rushes under incredible pressure, often preparing 200+ items in an hour along with a team of 3-4 other line cooks!"),
+							emoji(" ▪️ I played a managerial role for the store and its employees, making sure orders were consistently high quality and ready under target numbers."),
 						],
 					},
-					// {
-					// 	title: "Crew Trainer",
-					// 	duration: "Aug 2017 - Jul 2018",
-					// 	responsibilities: [
-					// 		emoji(" ▪️ Frontlined customer service and ensured that all customers received quality orders, notifying them of any delays and providing consolation otherwise"),
-					// 		emoji(" ▪️ Trained new crew members and crew members looking to move up on customer service strategies, safe food preparation, and other responsibilities"),
-					// 		emoji(" ▪️ Introduced new hires to the workplace and helped integrate them into the culture"),
-					// 	],
-					// },
-					// {
-					// 	title: "Customer Service Representative",
-					// 	duration: "Aug 2016 - Aug 2017",
-					// 	responsibilities: [
-					// 		emoji(" ▪️ Took and served customer orders, both in-person and over the phone, providing customers with a clean environment and welcoming attitude to help them feel comfortable within the store"),
-					// 		emoji(" ▪️ Checked quality and boxed food items exiting the oven, grouping them together with their respective orders for take-out/delivery"),
-					// 		emoji(" ▪️ Supported the rest of the staff by restocking ingredients, folding boxes, and routing orders to make intense supper rushes smoother for everybody"),
-					// 	],
-					// }					
+					{
+						title: "Customer Service Representative",
+						duration: "Aug 2016 - Jul 2018",
+						responsibilities: [
+							emoji(" ▪️ In my first team-oriented job, I frontlined customer service, making sure that every customer received a quality order and was satisfied with their experience!"),
+							emoji(" ▪️ I played a support role for the team by restocking ingredients, folding boxes, and routing orders to make intense supper rushes smoother for everybody"),
+							emoji(" ▪️ I also learned how to make pizzas for the first time - which I do at home all the time now!"),
+						],
+					},				
 			],
 		},
 		{
@@ -387,9 +251,9 @@ export const workSection = {
 						title: "Referee",
 						duration: "May 2015 - Jun 2017",
 						responsibilities: [
-							emoji(" ▪️ Refereed youth soccer games, from ages 9-18, with older divisions requiring intense concentration and confidence in making decisions, often working independently"),
-							emoji(" ▪️ Communicated fouls and reasonings to players, coaches, and parents, resolving conflicts that arose as a result"),
-							emoji(" ▪️ Refereed both summer (outdoor) and winter (indoor) seasons"),
+							emoji(" ▪️ Starting out my journey, I refereed youth soccer games from ages 9-18, with older divisions requiring intense concentration and confidence in making decisions."),
+							emoji(" ▪️ I communicated fouls and reasonings to players, coaches, and parents, resolving conflicts that arose as a result!"),
+							emoji(" ▪️ I often did my job independently, without a budget for assistants or linesmen."),
 						],
 					}
 			],
@@ -424,34 +288,13 @@ export const projects = [
 	{
 		name: "Personal Website",
 		tools: [
-				{
-					toolName: "HTML5",
-					toolIcon: "bxl:html5",
-				},
-				{
-					toolName: "CSS3",
-					toolIcon: "bxl:css3",
-				},
-				{
-					toolName: "JavaScript",
-					toolIcon: "bxl:javascript",
-				},											
-				{
-					toolName: "React",
-					toolIcon: "bxl:react",
-				},
-				{
-					toolName: "Next",
-					toolIcon: "tabler:brand-nextjs",
-				},											
-				{
-					toolName: "Bootstrap",
-					toolIcon: "bxl:bootstrap",
-				},			
-				{
-					toolName: "Vercel",
-					toolIcon: "ion:logo-vercel",
-				},																		
+				{ toolName: "HTML5", toolIcon: "bxl:html5", },
+				{ toolName: "CSS3", toolIcon: "bxl:css3", },
+				{ toolName: "JavaScript", toolIcon: "bxl:javascript", },											
+				{ toolName: "React", toolIcon: "bxl:react", },
+				{ toolName: "Next", toolIcon: "tabler:brand-nextjs", },											
+				{ toolName: "Bootstrap", toolIcon: "bxl:bootstrap", },			
+				{ toolName: "Vercel", toolIcon: "ion:logo-vercel", },																		
 			],				
 		desc: "This is the website you're currently viewing! It's probably my favorite project I've worked on so far.",
 		github: "https:/alborzk.me",
@@ -460,34 +303,13 @@ export const projects = [
 	{
 		name: "Virtual Closet",
 		tools: [
-				{
-					toolName: "Java",
-					toolIcon: "la:java",
-				},
-				{
-					toolName: "Android Studio",
-					toolIcon: "ic:sharp-android",
-				},
-				{
-					toolName: "JUnit5",
-					toolIcon: "simple-icons:junit5",
-				},											
-				{
-					toolName: "HTML5",
-					toolIcon: "bxl:html5",
-				},
-				{
-					toolName: "CSS3",
-					toolIcon: "bxl:css3",
-				},
-				{
-					toolName: "Bulma",
-					toolIcon: "mdi:bulma",
-				},
-				{
-					toolName: "Git",
-					toolIcon: "bxl:git",
-				},																						
+				{ toolName: "Java", toolIcon: "la:java", },
+				{ toolName: "Android Studio", toolIcon: "ic:sharp-android", },
+				{ toolName: "JUnit5", toolIcon: "simple-icons:junit5", },											
+				{ toolName: "HTML5", toolIcon: "bxl:html5", },
+				{ toolName: "CSS3", toolIcon: "bxl:css3", },
+				{ toolName: "Bulma", toolIcon: "mdi:bulma", },
+				{ toolName: "Git", toolIcon: "bxl:git", },																						
 			],				
 		desc: "View your clothes, organize them by label, and plan your future outfits all from your Android device!",
 		github: "https://github.com/alborzk/virtual-closet",
@@ -495,22 +317,10 @@ export const projects = [
 	{
 		name: "FocusTime",
 		tools: [
-				{
-					toolName: "HTML5",
-					toolIcon: "bxl:html5",
-				},
-				{
-					toolName: "CSS3",
-					toolIcon: "bxl:css3",
-				},
-				{
-					toolName: "JavaScript",
-					toolIcon: "bxl:javascript",
-				},	
-				{
-					toolName: "Git",
-					toolIcon: "bxl:git",
-				},							
+				{ toolName: "HTML5", toolIcon: "bxl:html5", },
+				{ toolName: "CSS3", toolIcon: "bxl:css3", },
+				{ toolName: "JavaScript", toolIcon: "bxl:javascript", },	
+				{ toolName: "Git", toolIcon: "bxl:git", },							
 			],		
 		desc: "A high-fidelity prototype web app to help you boost your productivity and track your progress!",
 		github: "https://github.com/alborzk/focustime",
@@ -518,22 +328,10 @@ export const projects = [
 	{
 		name: "LeagueDB",
 		tools: [
-				{
-					toolName: "Java",
-					toolIcon: "la:java",
-				},			
-				{
-					toolName: "SQL",
-					toolIcon: "carbon:sql",
-				},
-				{
-					toolName: "MySQL",
-					toolIcon: "fontisto:mysql",
-				},
-				{
-					toolName: "Git",
-					toolIcon: "bxl:git",
-				},							
+				{ toolName: "Java", toolIcon: "la:java", },			
+				{ toolName: "SQL", toolIcon: "carbon:sql", },
+				{ toolName: "MySQL", toolIcon: "fontisto:mysql", },
+				{ toolName: "Git", toolIcon: "bxl:git", },							
 			],		
 		desc: "A database tool for the video game “League of Legends”, allowing users to see tables of game data or get results for specific queries!",
 		github: "https://github.com/alborzk/league-db",
@@ -541,14 +339,8 @@ export const projects = [
 	{
 		name: "Robo-Run",
 		tools: [
-				{
-					toolName: "Processing",
-					toolIcon: "file-icons:processing",
-				},			
-				{
-					toolName: "OpenGL",
-					toolIcon: "file-icons:opengl",
-				},						
+				{ toolName: "Processing", toolIcon: "file-icons:processing", },			
+				{ toolName: "OpenGL", toolIcon: "file-icons:opengl", },						
 			],				
 		desc: "A simple runner game that puts you in control of a very determined little robot!",
 		github: "https://github.com/alborzk/robo-run",
@@ -556,14 +348,8 @@ export const projects = [
 		{
 		name: "HomeBoards",
 		tools: [
-				{
-					toolName: "Figma",
-					toolIcon: "ph:figma-logo-fill",
-				},			
-				{
-					toolName: "Git",
-					toolIcon: "bxl:git",
-				},						
+				{ toolName: "Figma", toolIcon: "ph:figma-logo-fill", },			
+				{ toolName: "Git", toolIcon: "bxl:git", },						
 			],			
 		desc: "A horizontal prototype - virtually build your properties, create tasks that need to get done, and view them by walking through your rooms!",
 		github: "https://github.com/alborzk/robo-run",
@@ -607,12 +393,6 @@ export const seoData = {
 	image: "img/icons/common/avatar.jpg",
 	url: "https://alborzk.me",
 	keywords: [
-		"Alborz",
-		"Alborz Khakabzan",
-		"Alborz Portfolio ",
-		"Alborz Khakbazan Portfolio",
-		"Portfolio",
-		"@alborzk",
-		"alborzk",
+		"Alborz", "Alborz Khakabzan", "Alborz Portfolio ", "Alborz Khakbazan Portfolio", "Portfolio", "@alborzk", "alborzk",
 	],
 }

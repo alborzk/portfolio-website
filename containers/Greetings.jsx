@@ -33,12 +33,10 @@ const Greetings = () => {
 									<h1 className="fs-2 mt-5 mb-3 text-white fw-bold">
 									{greetings.title + " "}
 									</h1>
-									<p className="fs-6 text-white ls-1">
-										{greetings.d1}
-									</p>
-									<p className="fs-6 text-white ls-1">
-										{greetings.d3}
-									</p>															
+									{greetings.desc.map((desc, i) => {
+                        			return <p className="fs-6 text-white ls-1" key={i}>
+                            			{desc}</p>;
+                    				})}															
 									{/* <SocialLinks /> */}
 									<div className="btn-wrapper my-4">
 										{/* <Button
