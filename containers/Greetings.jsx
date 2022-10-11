@@ -37,7 +37,6 @@ const Greetings = () => {
                         			return <p className="fs-6 text-white ls-1" key={i}>
                             			{desc}</p>;
                     				})}															
-									{/* <SocialLinks /> */}
 									<div className="btn-wrapper my-4">
 										{/* <Button
 											className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
@@ -61,7 +60,8 @@ const Greetings = () => {
 									<div className="content-center">
 										<img
 											src={"/img/icons/common/avatar.jpg"}
-											style={{ width: "100%", borderRadius: "50%"  }}
+											style={{ width: "100%", borderRadius: "50%"}}
+											class="border border-primary"
 											alt=""
 											className="img-center img-fluid shadow shadow-lg--hover mb-4"
 										>							

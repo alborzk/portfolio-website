@@ -7,8 +7,6 @@ export const greetings = {
 		emoji("Thanks for checking out my portfolio! I'm a 4th year computer science student based in Winnipeg, Canada with a wide array of programming knowledge. This website was coded using React, Next.js and Bootstrap by me! 😄"),
 		"Currently, I'm looking for co-op work for Winter 2023. Please continue reading to learn more about me and what I can offer!",
 	],
-	resumeLink:
-		"https://drive.google.com/file/d/14HIUatHcPad9_CQO7oZSLg4EUvGFFu3J/view?usp=sharing",
 };
 
 export const openSource = {
@@ -170,6 +168,8 @@ export const educationInfo = [
 
 export const workSection = {
 	title: "Career",
+	resumeLink:
+		"https://drive.google.com/file/d/14HIUatHcPad9_CQO7oZSLg4EUvGFFu3J/view?usp=sharing",
 	// subTitle:
 	// 	"A walkthrough of my career so far!",
 	data: [
@@ -205,7 +205,7 @@ export const workSection = {
 						responsibilities: [
 							emoji(" ▪️ In my second year, I directed a small team of fellow engineering students to fund and organize Graduation ceremonies for 150+ graduating engineers!"),
 							emoji(" ▪️ I represented the directorship within UMES, formally speaking to 80+ members during meetings and casting important votes on its behalf."),
-							emoji(" ▪️ I also connected with sponsors and maintained professional relationships to keep our funding secure, even throughout the pandemic!"),							
+							emoji(" ▪️ I also connected with sponsors and maintained professional relationships to keep our funding secure."),							
 						],
 					},
 					{
@@ -213,7 +213,7 @@ export const workSection = {
 						duration: "Sep 2019 - Aug 2020",
 						responsibilities: [
 							emoji(" ▪️ In my first year, I led a team of fellow freshmen, planning and organizing events for 800+ others within the faculty!"),
-							emoji(" ▪️ I acted as the representative for 300+ engineering freshmen, speaking on their behalf at meetings and learning about the formal procedures within UMES."),
+							// emoji(" ▪️ I acted as the representative for 300+ engineering freshmen, speaking on their behalf at meetings and learning about the formal procedures within UMES."),
 							emoji(" ▪️ I ushered the planning for fun events such as our Bob Ross Paint Night and November Nintendo Night, which had incredible turnouts and were executed with no issues!"),
 						],
 					}
@@ -227,20 +227,20 @@ export const workSection = {
 						title: "Team Leader",
 						duration: "Jul 2018 - Sep 2020",
 						responsibilities: [
-							emoji(" ▪️ After being promoted - I ran the store during the day, fulfilling orders while also multitasking to prepare the store and its inventory for the supper rush."),
+							emoji(" ▪️ At Domino's, I ran the store during the day - fulfilling orders while also multitasking to prepare the store and its inventory for the supper rush."),
 							emoji(" ▪️ I spearheaded supper rushes under incredible pressure, often preparing 200+ items in an hour along with a team of 3-4 other line cooks!"),
 							emoji(" ▪️ I played a managerial role for the store and its employees, making sure orders were consistently high quality and ready under target numbers."),
 						],
 					},
-					{
-						title: "Customer Service Representative",
-						duration: "Aug 2016 - Jul 2018",
-						responsibilities: [
-							emoji(" ▪️ In my first team-oriented job, I frontlined customer service, making sure that every customer received a quality order and was satisfied with their experience!"),
-							emoji(" ▪️ I played a support role for the team by restocking ingredients, folding boxes, and routing orders to make intense supper rushes smoother for everybody"),
-							emoji(" ▪️ I also learned how to make pizzas for the first time - which I do at home all the time now!"),
-						],
-					},				
+			// 		{
+			// 			title: "Customer Service Representative",
+			// 			duration: "Aug 2016 - Jul 2018",
+			// 			responsibilities: [
+			// 				emoji(" ▪️ In my first team-oriented job, I frontlined customer service, making sure that every customer received a quality order and was satisfied with their experience!"),
+			// 				emoji(" ▪️ I played a support role for the team by restocking ingredients, folding boxes, and routing orders to make intense supper rushes smoother for everybody"),
+			// 				emoji(" ▪️ I also learned how to make pizzas for the first time - which I do at home all the time now!"),
+			// 			],
+			// 		},				
 			],
 		},
 		{
@@ -312,7 +312,7 @@ export const projects = [
 				{ toolName: "Git", toolIcon: "bxl:git", },																						
 			],				
 		desc: "View your clothes, organize them by label, and plan your future outfits all from your Android device!",
-		github: "https://github.com/alborzk/virtual-closet",
+		github: "https://github.com/alborzk/portfolio-website",
 	},
 	{
 		name: "FocusTime",

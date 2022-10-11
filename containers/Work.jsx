@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 import React, { Fragment } from "react";
 import { Fade } from "react-reveal";
-import { Col, Container, Row, UncontrolledTooltip } from "reactstrap";
+import { Button, Col, Container, Row, UncontrolledTooltip } from "reactstrap";
 import DisplayLottie from "../components/DisplayLottie";
 import { workSection } from "../portfolio";
 
@@ -89,6 +89,25 @@ const Work = () => {
 					</Row>
 				);
 			})}
+			<Fade top duration={2000}>
+				<h4 className="mb-1 mt-lg-6" id="section-title"><strong>See more!</strong></h4>
+			</Fade>
+			<Fade bottom duration={2000}><Row lg="4"><Col>
+			<Button className="btn-primary btn-icon mt-3 mb-3 ml-1 rounded-4" color="default" href={workSection.resumeLink}>
+					<Icon icon="ri:file-paper-fill" width="24px" height="24px"></Icon>
+					<span className="btn-inner--text text-capitalize">
+						Resume
+					</span>
+			</Button>
+			<Button className="btn-dark btn-icon mt-3 ml-1 mb-3 rounded-4" color="default" href={workSection.resumeLink}>
+					<Icon icon="ci:linkedin" width="24px" height="24px"></Icon>
+					<span className="btn-inner--text text-capitalize">
+						LinkedIn
+					</span>
+			</Button>		
+			</Col>
+			</Row>			
+			</Fade>
 		</Container>
 		</section>
 	);
