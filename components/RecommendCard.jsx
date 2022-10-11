@@ -40,7 +40,7 @@ const RecommendCard = ({ data }) => {
 							}}
 							alt={data.logo}
 						/>
-                        <a href={data.link} class="stretched-link"></a>
+                        <a href={data.link} className="stretched-link"></a>
 						<CardTitle tag="h5" className="mt-4 mb-1"  id="section-title"><strong>
 							{data.name}</strong>
 						</CardTitle>
