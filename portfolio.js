@@ -17,7 +17,7 @@ export const contact = {};
 
 export const socialLinks = {
 	url: "https://alborzk.me",
-	email: "mailto:alvisk1313@gmail.com",
+	email: "mailto:khakbaza@myumanitoba.ca",
 	linkedin: "https://www.linkedin.com/in/alborzk/",
 	github: "https://github.com/alborzk",
 	instagram: "https://www.instagram.com/_alborzk/",
@@ -84,8 +84,9 @@ export const skillsSection = {
 				{ skillName: "Bootstrap", fontAwesomeClassname: "logos:bootstrap", },				
 				{ skillName: "Bulma", fontAwesomeClassname: "logos:bulma", },						
 				{ skillName: "VSCode", fontAwesomeClassname: "vscode-icons:file-type-vscode", },				
-				{ skillName: "Yarn", fontAwesomeClassname: "vscode-icons:file-type-yarn", },				
-				// { skillName: "NPM", fontAwesomeClassname: "logos:npm-icon", },
+				// { skillName: "Yarn", fontAwesomeClassname: "vscode-icons:file-type-yarn", },				
+				{ skillName: "NPM", fontAwesomeClassname: "logos:npm-icon",},
+				{ skillName: "Markdown", fontAwesomeClassname: "vscode-icons:file-type-markdown", },
 			],
 		},
 		{
@@ -103,8 +104,8 @@ export const skillsSection = {
 				{ skillName: "Neo4J", fontAwesomeClassname: "simple-icons:neo4j", },	
 				{ skillName: "MySQL", fontAwesomeClassname: "vscode-icons:file-type-mysql", },	
 				{ skillName: "Assembly", fontAwesomeClassname: "vscode-icons:file-type-assembly", },		
-				{ skillName: "Prolog", fontAwesomeClassname: "vscode-icons:file-type-prolog", },																																			
-				{ skillName: "Drawio", fontAwesomeClassname: "vscode-icons:file-type-drawio", },																							
+				// { skillName: "Prolog", fontAwesomeClassname: "vscode-icons:file-type-prolog", },																																			
+				// { skillName: "Drawio", fontAwesomeClassname: "vscode-icons:file-type-drawio", },																							
 			],
 		},
 		{
@@ -117,7 +118,7 @@ export const skillsSection = {
 				{ skillName: "Tailwind", fontAwesomeClassname: "logos:tailwindcss-icon", },				
 				{ skillName: "Django", fontAwesomeClassname: "logos:django-icon", },
 				{ skillName: "Angular", fontAwesomeClassname: "logos:angular-icon", },													
-				{ skillName: "Scala", fontAwesomeClassname: "logos:scala", },
+				{ skillName: "Chakra UI", fontAwesomeClassname: "simple-icons:chakraui", },
 				{ skillName: "Go", fontAwesomeClassname: "logos:go", },																											
 				{ skillName: "C Sharp", fontAwesomeClassname: "vscode-icons:file-type-csharp2", },
 				{ skillName: "C Plus Plus", fontAwesomeClassname: "logos:c-plusplus", },				
@@ -347,42 +348,42 @@ export const projects = [
 		desc: "A simple runner game that puts you in control of a very determined little robot!",
 		github: "https://github.com/alborzk/robo-run",
 	},
-		{
-		name: "HomeBoards",
-		tools: [
-				{ toolName: "Figma", toolIcon: "ph:figma-logo-fill", },			
-				{ toolName: "Git", toolIcon: "bxl:git", },						
-			],			
-		desc: "A horizontal prototype - virtually build your properties, create tasks that need to get done, and view them by walking through your rooms!",
-		github: "https://github.com/alborzk/robo-run",
-	},
+	// 	{
+	// 	name: "HomeBoards",
+	// 	tools: [
+	// 			{ toolName: "Figma", toolIcon: "ph:figma-logo-fill", },			
+	// 			{ toolName: "Git", toolIcon: "bxl:git", },						
+	// 		],			
+	// 	desc: "A horizontal prototype - virtually build your properties, create tasks that need to get done, and view them by walking through your rooms!",
+	// 	github: "https://github.com/alborzk/robo-run",
+	// },
 ];
 
 export const recommendations = [
 	{ name: "VSCode", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/vscode.png", link: "https://code.visualstudio.com/" },
 	{ name: "IntelliJ", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/intellij.png", link: "https://www.jetbrains.com/idea/" },
 	{ name: "PyCharm", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/pycharm.png", link: "https://www.jetbrains.com/pycharm/" },
-	{ name: "Copilot", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/copilot.png", link: "https://github.com/features/copilot" },
+	// { name: "Copilot", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/copilot.png", link: "https://github.com/features/copilot" },
 	{ name: "Scribe", subtitle: "Image Capture", logo: "img/icons/common/recommendations/scribe.png", link: "https://scribehow.com/" },
 	{ name: "Gyazo", subtitle: "Image Capture", logo: "img/icons/common/recommendations/gyazo.png", link: "https://gyazo.com/" },
 	{ name: "Spark", subtitle: "Communication", logo: "img/icons/common/recommendations/spark.png", link: "https://sparkmailapp.com/"},	
-	{ name: "Typeform", subtitle: "Forms", logo: "img/icons/common/recommendations/typeform.png", link: "https://www.typeform.com/" },
+	{ name: "Typeform", subtitle: "Surveys", logo: "img/icons/common/recommendations/typeform.png", link: "https://www.typeform.com/" },
 	{ name: "Vercel", subtitle: "Web Hosting", logo: "img/icons/common/recommendations/vercel.jpg", link: "https://vercel.com/" },
-	{ name: "NameCheap", subtitle: "Web Hosting", logo: "img/icons/common/recommendations/namecheap.png", link: "https://www.namecheap.com/hosting/" },	
+	// { name: "NameCheap", subtitle: "Web Hosting", logo: "img/icons/common/recommendations/namecheap.png", link: "https://www.namecheap.com/hosting/" },	
 	{ name: "Magic Eraser", subtitle: "Utilities", logo: "img/icons/common/recommendations/eraser.svg", link: "https://www.magiceraser.io/"},
 	{ name: "Squoosh", subtitle: "Utilities", logo: "img/icons/common/recommendations/squoosh.jpg", link: "https://squoosh.app/" },	
 	{ name: "Figma", subtitle: "Prototyping", logo: "img/icons/common/recommendations/figma.png", link: "https://www.figma.com/" },
 	{ name: "Iconify", subtitle: "Resources", logo: "img/icons/common/recommendations/iconify.png", link: "https://iconify.design/" },
 	{ name: "Blush", subtitle: "Resources", logo: "img/icons/common/recommendations/blush.jpg", link: "https://blush.design/"},	
-	{ name: "Haikei", subtitle: "Resources", logo: "img/icons/common/recommendations/haikei.png", link: "https://haikei.app/" },
+	// { name: "Haikei", subtitle: "Resources", logo: "img/icons/common/recommendations/haikei.png", link: "https://haikei.app/" },
 	{ name: "Canva", subtitle: "Resources", logo: "img/icons/common/recommendations/canva.jpg", link: "https://https://www.canva.com/"},	
-	{ name: "Personas", subtitle: "Resources", logo: "img/icons/common/recommendations/personas.png", link: "https://personas.draftbit.com/" },
+	// { name: "Personas", subtitle: "Resources", logo: "img/icons/common/recommendations/personas.png", link: "https://personas.draftbit.com/" },
 	{ name: "Unsplash", subtitle: "Resources", logo: "img/icons/common/recommendations/unsplash.png", link: "https://unsplash.com/"},
 	{ name: "Dall-E", subtitle: "Resources", logo: "img/icons/common/recommendations/dalle.png", link: "https://openai.com/dall-e-2/"},
 	// { name: "Undraw", subtitle: "Resources", logo: "img/icons/common/recommendations/undraw.png", link: "https://undraw.co/" },
 	// { name: "Conic", subtitle: "Resources", logo: "img/icons/common/recommendations/conic.png", link: "https://conic.style/" },
 	// { name: "Shape Divider", subtitle: "Resources", logo: "img/icons/common/recommendations/shapediv.png", link: "https://shapedivider.app/" },
-];
+]; 
 
 // export const feedbacks = [
 // 	{
