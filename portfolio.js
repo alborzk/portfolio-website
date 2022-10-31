@@ -47,8 +47,8 @@ export const skillsSection = {
 			lottieAnimationFile: "/lottie/skills/software.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(" ▪️ Well versed in object-oriented programming"),
-				emoji(" ▪️ Experience with data structures and algorithms"),
-				emoji(" ▪️ Agile development strategies, version control, and unit testing"),
+				emoji(" ▪️ Experience with data structures and algorithms, including optimizing for efficiency"),
+				emoji(" ▪️ Agile development, version control, issue tracking and unit testing"),
 				emoji(" ▪️ Effective prototyping strategies, architecture and software design"),
 			],
 			softwareSkills: [
@@ -60,8 +60,9 @@ export const skillsSection = {
 				{ skillName: "Unity", fontAwesomeClassname: "logos:unity", },											
 				{ skillName: "IntelliJ", fontAwesomeClassname: "logos:intellij-idea", },	
 				{ skillName: "PyCharm", fontAwesomeClassname: "logos:pycharm", },	
-				// { skillName: "Eclipse", fontAwesomeClassname: "logos:eclipse-icon", },														
-				{ skillName: "JUnit5", fontAwesomeClassname: "simple-icons:junit5", },																													
+				// { skillName: "Eclipse", fontAwesomeClassname: "logos:eclipse-icon", },			
+				{ skillName: "JUnit5", fontAwesomeClassname: "simple-icons:junit5", },												
+				{ skillName: "Visual Basic", fontAwesomeClassname: "vscode-icons:file-type-vbproj", },																													
 				// { skillName: "Gradle", fontAwesomeClassname: "vscode-icons:file-type-gradle2", },				
 			],
 		},
@@ -80,13 +81,15 @@ export const skillsSection = {
 				{ skillName: "JavaScript", fontAwesomeClassname: "logos:javascript", },
 				// { skillName: "TypeScript", fontAwesomeClassname: "logos:typescript-icon", },				
 				{ skillName: "React", fontAwesomeClassname: "logos:react", },
-				{ skillName: "Next", fontAwesomeClassname: "logos:nextjs-icon", },		
 				{ skillName: "Bootstrap", fontAwesomeClassname: "logos:bootstrap", },				
-				{ skillName: "Bulma", fontAwesomeClassname: "logos:bulma", },						
-				{ skillName: "VSCode", fontAwesomeClassname: "vscode-icons:file-type-vscode", },				
-				// { skillName: "Yarn", fontAwesomeClassname: "vscode-icons:file-type-yarn", },				
-				{ skillName: "NPM", fontAwesomeClassname: "logos:npm-icon",},
+				{ skillName: "Tailwind", fontAwesomeClassname: "logos:tailwindcss-icon", },		
+				// { skillName: "Bulma", fontAwesomeClassname: "logos:bulma", },						
+				{ skillName: "VSCode", fontAwesomeClassname: "vscode-icons:file-type-vscode", },		
+				{ skillName: "Next", fontAwesomeClassname: "logos:nextjs-icon", },		
 				{ skillName: "Markdown", fontAwesomeClassname: "vscode-icons:file-type-markdown", },
+				// { skillName: "Yarn", fontAwesomeClassname: "vscode-icons:file-type-yarn", },				
+				// { skillName: "NPM", fontAwesomeClassname: "logos:npm-icon",},
+				// { skillName: "Jekyll", fontAwesomeClassname: "cib:jekyll", },	
 			],
 		},
 		{
@@ -105,6 +108,7 @@ export const skillsSection = {
 				{ skillName: "MySQL", fontAwesomeClassname: "vscode-icons:file-type-mysql", },	
 				{ skillName: "Assembly", fontAwesomeClassname: "vscode-icons:file-type-assembly", },		
 				// { skillName: "Prolog", fontAwesomeClassname: "vscode-icons:file-type-prolog", },																																			
+				// { skillName: "OpenGL", fontAwesomeClassname: "logos:opengl", },
 				// { skillName: "Drawio", fontAwesomeClassname: "vscode-icons:file-type-drawio", },																							
 			],
 		},
@@ -114,8 +118,7 @@ export const skillsSection = {
 			skills: [
 				emoji("I haven't worked with these technologies yet, but I'm eager to! Hopefully you'll see them in one of the sections above soon!"),
 			],
-			softwareSkills: [
-				{ skillName: "Tailwind", fontAwesomeClassname: "logos:tailwindcss-icon", },				
+			softwareSkills: [		
 				{ skillName: "Django", fontAwesomeClassname: "logos:django-icon", },
 				{ skillName: "Angular", fontAwesomeClassname: "logos:angular-icon", },													
 				{ skillName: "Chakra UI", fontAwesomeClassname: "simple-icons:chakraui", },
@@ -125,7 +128,6 @@ export const skillsSection = {
 				{ skillName: "MongoDB", fontAwesomeClassname: "logos:mongodb-icon", },		
 				{ skillName: "PostgreSQL", fontAwesomeClassname: "logos:postgresql", },
 				{ skillName: "Firebase", fontAwesomeClassname: "logos:firebase", },																								
-				// { skillName: "OpenGL", fontAwesomeClassname: "logos:opengl", },
 				// { skillName: "Processing", fontAwesomeClassname: "logos:processing", },				
 				{ skillName: "Kotlin", fontAwesomeClassname: "logos:kotlin-icon", },
 				{ skillName: "AWS", fontAwesomeClassname: "logos:aws", },				
@@ -171,7 +173,7 @@ export const educationInfo = [
 export const workSection = {
 	title: "Career",
 	resumeLink:
-		"https://drive.google.com/file/d/14HIUatHcPad9_CQO7oZSLg4EUvGFFu3J/view?usp=sharing",
+		"https://drive.google.com/file/d/1Tzxv--GOOp3qnMVMYD-4TYeZR6VWutLY/view?usp=sharing",
 	// subTitle:
 	// 	"A walkthrough of my career so far!",
 	data: [
@@ -288,6 +290,22 @@ export const hobbies = [
 
 export const projects = [
 	{
+		name: "Roundtable (WIP)",
+		tools: [
+				{ toolName: "TypeScript", toolIcon: "bxl:typescript", },											
+				{ toolName: "React", toolIcon: "bxl:react", },
+				{ toolName: "Tailwind", toolIcon: "bxl:tailwind-css", },
+				{ toolName: "MongoDB", toolIcon: "bxl:mongodb", },					
+				// { toolName: "Next", toolIcon: "tabler:brand-nextjs", },											
+				{ toolName: "Docker", toolIcon: "bxl-docker", },	
+				{ toolName: "Git", toolIcon: "bxl:git", },							
+				// { toolName: "Vercel", toolIcon: "ion:logo-vercel", },																		
+			],				
+		desc: "A web app for friends who love movie nights, to help them pick a movie to watch.",
+		github: "https://github.com/anandp1/random-movie-picker",
+		// demo: "https://alborzk.me",
+	},		
+	{
 		name: "Personal Website",
 		tools: [
 				{ toolName: "HTML5", toolIcon: "bxl:html5", },
@@ -308,8 +326,8 @@ export const projects = [
 				{ toolName: "Java", toolIcon: "la:java", },
 				{ toolName: "Android Studio", toolIcon: "ic:sharp-android", },
 				{ toolName: "JUnit5", toolIcon: "simple-icons:junit5", },											
-				{ toolName: "HTML5", toolIcon: "bxl:html5", },
-				{ toolName: "CSS3", toolIcon: "bxl:css3", },
+				// { toolName: "HTML5", toolIcon: "bxl:html5", },
+				// { toolName: "CSS3", toolIcon: "bxl:css3", },
 				{ toolName: "Bulma", toolIcon: "mdi:bulma", },
 				{ toolName: "Git", toolIcon: "bxl:git", },																						
 			],				
@@ -327,6 +345,7 @@ export const projects = [
 			],		
 		desc: "A high-fidelity prototype web app to help you boost your productivity and track your progress!",
 		github: "https://github.com/alborzk/focustime",
+		demo:"https://humayrar.github.io/focustime/",
 	},
 	{
 		name: "LeagueDB",
