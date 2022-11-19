@@ -176,6 +176,8 @@ export const workSection = {
 	title: "Career",
 	resumeLink:
 		"https://drive.google.com/file/d/1Tzxv--GOOp3qnMVMYD-4TYeZR6VWutLY/view?usp=sharing",
+	linkedIn:
+		"https://www.linkedin.com/in/alborzk",	
 	// subTitle:
 	// 	"A walkthrough of my career so far!",
 	data: [

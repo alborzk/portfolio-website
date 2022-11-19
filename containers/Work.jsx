@@ -99,7 +99,7 @@ const Work = () => {
 						Resume
 					</span>
 			</Button>
-			<Button className="btn-dark btn-icon mt-3 ml-1 mb-3 rounded-4" color="default" href={workSection.resumeLink}>
+			<Button className="btn-dark btn-icon mt-3 ml-1 mb-3 rounded-4" color="default" href={workSection.linkedIn}>
 					<Icon icon="ci:linkedin" width="24px" height="24px"></Icon>
 					<span className="btn-inner--text text-capitalize">
 						LinkedIn
