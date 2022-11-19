@@ -46,8 +46,8 @@ export const skillsSection = {
 			title: "Software Engineering",
 			lottieAnimationFile: "/lottie/skills/software.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji(" ▪️ Well versed in object-oriented programming"),
-				emoji(" ▪️ Experience with data structures and algorithms, including optimizing for efficiency"),
+				emoji(" ▪️ Well versed in object-oriented programming and SOLID design principles"),
+				emoji(" ▪️ Experience with data structures and algorithms, optimizing for space/time efficiency"),
 				emoji(" ▪️ Agile development, version control, issue tracking and unit testing"),
 				emoji(" ▪️ Effective prototyping strategies, architecture and software design"),
 			],
@@ -119,16 +119,18 @@ export const skillsSection = {
 				emoji("I haven't worked with these technologies yet, but I'm eager to! Hopefully you'll see them in one of the sections above soon!"),
 			],
 			softwareSkills: [		
+				{ skillName: "C Sharp", fontAwesomeClassname: "vscode-icons:file-type-csharp2", },				
 				{ skillName: "Django", fontAwesomeClassname: "logos:django-icon", },
 				{ skillName: "Angular", fontAwesomeClassname: "logos:angular-icon", },													
-				{ skillName: "Chakra UI", fontAwesomeClassname: "simple-icons:chakraui", },
-				{ skillName: "Go", fontAwesomeClassname: "logos:go", },																											
-				{ skillName: "C Sharp", fontAwesomeClassname: "vscode-icons:file-type-csharp2", },
-				{ skillName: "C Plus Plus", fontAwesomeClassname: "logos:c-plusplus", },				
+				{ skillName: "Chakra UI", fontAwesomeClassname: "simple-icons:chakraui", },						
+				{ skillName: "Redux", fontAwesomeClassname: "logos:redux", },															
+				{ skillName: "Docker", fontAwesomeClassname: "logos:docker-icon", },																													
+				// { skillName: "C Plus Plus", fontAwesomeClassname: "logos:c-plusplus", },				
 				{ skillName: "MongoDB", fontAwesomeClassname: "logos:mongodb-icon", },		
-				{ skillName: "PostgreSQL", fontAwesomeClassname: "logos:postgresql", },
-				{ skillName: "Firebase", fontAwesomeClassname: "logos:firebase", },																								
-				// { skillName: "Processing", fontAwesomeClassname: "logos:processing", },				
+				// { skillName: "PostgreSQL", fontAwesomeClassname: "logos:postgresql", },
+				{ skillName: "Firebase", fontAwesomeClassname: "logos:firebase", },	
+				{ skillName: "Go", fontAwesomeClassname: "logos:go", },																								
+				{ skillName: "Swift", fontAwesomeClassname: "vscode-icons:file-type-swift", },							
 				{ skillName: "Kotlin", fontAwesomeClassname: "logos:kotlin-icon", },
 				{ skillName: "AWS", fontAwesomeClassname: "logos:aws", },				
 				// { skillName: "Arduino", fontAwesomeClassname: "vscode-icons:file-type-arduino", },											
@@ -306,7 +308,7 @@ export const projects = [
 		// demo: "https://alborzk.me",
 	},		
 	{
-		name: "Personal Website",
+		name: "Portfolio Website",
 		tools: [
 				{ toolName: "HTML5", toolIcon: "bxl:html5", },
 				{ toolName: "CSS3", toolIcon: "bxl:css3", },
@@ -359,6 +361,17 @@ export const projects = [
 		github: "https://github.com/alborzk/league-db",
 	},
 	{
+		name: "Object Recognition Research",
+		tools: [
+				{ toolName: "Markdown", toolIcon: "mdi:language-markdown", },
+				{ toolName: "Jekyll", toolIcon: "simple-icons:jekyll", },						
+			],				
+		desc: "A research paper on how intelligent systems recognize and track objects via neural networks.",
+		github: "https://github.com/alborzk/object-recognition-research",
+		demo:"https://drive.google.com/file/d/1IvOiPM2kWaKn5M2CvKjLmir2ZMWfpyBU/view",
+		site: "https://alborzk.github.io/object-recognition-research/paper",
+	},	
+	{
 		name: "Robo-Run",
 		tools: [
 				{ toolName: "Processing", toolIcon: "file-icons:processing", },			
@@ -367,6 +380,14 @@ export const projects = [
 		desc: "A simple runner game that puts you in control of a very determined little robot!",
 		github: "https://github.com/alborzk/robo-run",
 	},
+	{
+		name: "Whack-A-Mole",
+		tools: [
+				{ toolName: "Visual Basic", toolIcon: "mdi:microsoft-visual-studio", },							
+			],				
+		desc: "A simple whack-a-mole game built with VB.NET. One of the very first projects I ever coded!",
+		github: "https://github.com/alborzk/whack-a-mole",
+	},	
 	// 	{
 	// 	name: "HomeBoards",
 	// 	tools: [
