@@ -292,7 +292,7 @@ export const hobbies = [
 
 export const projects = [
 	{
-		name: "Roundtable (WIP)",
+		name: "Roundtable",
 		tools: [
 				{ toolName: "TypeScript", toolIcon: "bxl:typescript", },											
 				{ toolName: "React", toolIcon: "bxl:react", },
@@ -303,7 +303,7 @@ export const projects = [
 				{ toolName: "Git", toolIcon: "bxl:git", },							
 				// { toolName: "Vercel", toolIcon: "ion:logo-vercel", },																		
 			],				
-		desc: "A web app for friends who love movie nights, to help them pick a movie to watch.",
+		desc: "A web app for friends who love movie nights, to help them pick a movie to watch. Currently a WIP!",
 		github: "https://github.com/anandp1/random-movie-picker",
 		// demo: "https://alborzk.me",
 	},		
