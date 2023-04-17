@@ -440,18 +440,18 @@ export const recommendations = [
 	{ name: "Dall-E", subtitle: "Resources", logo: "img/icons/common/recommendations/dalle.png", link: "https://openai.com/dall-e-2/"},
 ]; 
 
-export const feedbacks = [
-	{
-		name: "Jay E.",
-		feedback:
-			"Hello Alborz, I just wanted to say thank you for your help with the project. I really appreciate it. I hope you have a great day!",
-	},
-	{
-		name: "Sara L.",
-		feedback:
-			"He is a very good programmer and he is very helpful. He is very good at explaining things and he is very patient. I would recommend him to anyone who needs help with programming.",
-	},
-];
+// export const feedbacks = [
+// 	{
+// 		name: "Jay E.",
+// 		feedback:
+// 			"Hello Alborz, I just wanted to say thank you for your help with the project. I really appreciate it. I hope you have a great day!",
+// 	},
+// 	{
+// 		name: "Sara L.",
+// 		feedback:
+// 			"He is a very good programmer and he is very helpful. He is very good at explaining things and he is very patient. I would recommend him to anyone who needs help with programming.",
+// 	},
+// ];
 
 export const seoData = {
 	title: "Alborz Khakbazan",
