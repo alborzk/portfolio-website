@@ -297,7 +297,7 @@ export const hobbies = [
 	{
 		name: "Gym",
 		icon: "la:dumbbell",		
-		desc: "I've been weightlifting for almost 3 years. It's kept my mental health rock-solid since, and birthed so many friendships!",
+		desc: "I've been weightlifting for 3 years. It's kept my mental health rock-solid since, and birthed so many friendships!",
 	},
 	{
 		name: "Music",
@@ -325,8 +325,8 @@ export const projects = [
 				// { toolName: "Vercel", toolIcon: "ion:logo-vercel", },																		
 			],				
 		desc: "A web app for friends who love movie nights, to help them pick a movie to watch. Currently a WIP!",
-		github: "https://github.com/anandp1/random-movie-picker",
-		// demo: "https://alborzk.me",
+		github: "https://github.com/anandp1/roundtable",
+		demo: "https://roundtable.vercel.app",
 	},		
 	{
 		name: "Portfolio Website",
