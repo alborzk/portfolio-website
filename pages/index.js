@@ -5,13 +5,12 @@ const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
 const About = dynamic(() => import("../containers/About"));
 const Skills = dynamic(() => import("../containers/Skills"));
-// const Proficiency = dynamic(() => import("../containers/Proficiency"));
 const Education = dynamic(() => import("../containers/Education"));
 const Work = dynamic(() => import("../containers/Work"));
 const Hobbies = dynamic(() => import("../containers/Hobbies"));
 const Projects = dynamic(() => import("../containers/Projects"));
 const Recommendations = dynamic(() => import("../containers/Recommendations"));
-// const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
+const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
 const GithubProfileCard = dynamic(() =>
 	import("../components/GithubProfileCard")
 );
@@ -26,7 +25,6 @@ export default function Home({ githubProfileData }) {
 			<Greetings />
 			<About />
 			<Skills />
-			{/* <Proficiency /> */}
 			<Education />
 			<Work/>
 			<Hobbies />

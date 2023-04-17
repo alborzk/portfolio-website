@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { greetings } from "../portfolio";
 import { Fade } from "react-reveal";
 import { Button, Container, Row, Col } from "reactstrap";
-import GreetingLottie from "../components/DisplayLottie";
+import DisplayLottie from "../components/DisplayLottie";
 import SocialLinks from "../components/SocialLinks";
 
 const Greetings = () => {
@@ -28,18 +28,6 @@ const Greetings = () => {
                             			{desc}</p>;
                     				})}															
 									<div className="btn-wrapper my-4">
-										{/* <Button
-											className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-											color="default"
-											href={greetings.resumeLink}
-										>
-											<span className="btn-inner--icon mr-1">
-												<i className="fa fa-file" />
-											</span>
-											<span className="btn-inner--text">
-												See My Resume
-											</span>
-										</Button> */}
 									</div>
 									</Fade>	
 								</Col>
@@ -49,12 +37,15 @@ const Greetings = () => {
 									<Fade right duration={2000}>
 									<div className="content-center">
 										<img
-											src={"/img/icons/common/avatar.jpg"}
+											src={"/img/icons/common/selfie.jpg"}
 											style={{ width: "80%", borderRadius: "50%"}}
 											alt=""
 											className="img-center shadow--hover mt-6 mb-4 mx-4"
 										>							
 										</img>
+																		{/* <DisplayLottie
+									animationPath={"/lottie/me.json"}
+								/> */}
 									</div>
 									</Fade>							 
 								</Col>								
