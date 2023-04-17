@@ -324,7 +324,7 @@ export const projects = [
 				{ toolName: "Git", toolIcon: "bxl:git", },							
 				// { toolName: "Vercel", toolIcon: "ion:logo-vercel", },																		
 			],				
-		desc: "A web app for friends who love movie nights, to help them pick a movie to watch. Currently a WIP!",
+		desc: "A social web app for movie nights & watchlists with friends. Currently a WIP!",
 		github: "https://github.com/anandp1/roundtable",
 		demo: "https://roundtable.vercel.app",
 	},		
@@ -366,7 +366,7 @@ export const projects = [
 				{ toolName: "JavaScript", toolIcon: "bxl:javascript", },	
 				{ toolName: "Git", toolIcon: "bxl:git", },							
 			],		
-		desc: "A high-fidelity prototype web app to help you boost your productivity and track your progress!",
+		desc: "A prototype web app to help you boost your productivity and track your progress!",
 		github: "https://github.com/alborzk/focustime",
 		demo:"https://humayrar.github.io/focustime/",
 	},
@@ -442,14 +442,14 @@ export const recommendations = [
 
 export const feedbacks = [
 	{
-		name: "John Smith",
+		name: "Jay E.",
 		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+			"Hello Alborz, I just wanted to say thank you for your help with the project. I really appreciate it. I hope you have a great day!",
 	},
 	{
-		name: "John Smith",
+		name: "Sara L.",
 		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+			"He is a very good programmer and he is very helpful. He is very good at explaining things and he is very patient. I would recommend him to anyone who needs help with programming.",
 	},
 ];
 

@@ -6,20 +6,11 @@ import { Fade } from "react-reveal";
 
 const Feedbacks = () => {
 	return feedbacks && (
-		<section className="section section-lg">
-			<Container>
-				<div className="d-flex p-4">
-					<div>
-						<div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-							<i className="fa fa-star text-info" />
-						</div>
-					</div>
-					<div className="pl-4">
-						<h4 className="display-3 text-info">
-							Our Clients Feedback
-						</h4>
-					</div>
-				</div>
+		<section className="section pb-100 bg-primary">
+			<Container className="text-center">	
+			<Fade duration={2000}>
+			<h1 className="text-white my-4 display-3" id="section-title"><strong>{"Feedback"}</strong></h1>
+			</Fade>
 				<Row className="row-grid align-items-center">
 					{feedbacks.map((data, i) => {
 						return (
