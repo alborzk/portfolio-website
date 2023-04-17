@@ -25,11 +25,6 @@ const GithubProfileCard = ({ prof }) => {
 							<p className="lead text-white mt-3">
 								Feel free to send me an email, or connect with me at any of the links below!
 							</p>
-							{/* <p className="text-white mt-3">{prof.bio}</p> */}
-							{/* <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
-								<i className="ni ni-pin-3 text-info mr-2" />
-								{prof.location}
-							</div> */}
 							<SocialLinks />
 						</Col>
 					</Row>

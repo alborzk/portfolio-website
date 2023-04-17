@@ -22,32 +22,10 @@ const HobbiesCard = ({ data }) => {
 					className="card-lift--hover mb-3 text-center rounded-4"
 				>
 					<CardBody className="align-items-center">
-						{/* <img
-							src={data.companylogo}
-							style={{
-								objectFit: "contain",
-								left: 0,
-								right: 0,
-								top: "12rem",
-								marginLeft: "auto",
-								marginRight: "auto",
-								width: "6rem",
-								height: "6rem",
-								borderRadius: "10%",
-							}}
-							alt={data.companylogo}
-						/> */}
 						<Icon icon={data.icon}data-inline="false" width="100px" height="100px%"></Icon>						
-							{/* <DisplayLottie
-								animationPath={data.lottieAnimationFile}
-							/> */}
 						<CardTitle tag="h4" className="mt-4 mb-1"  id="section-title"><strong>
 							{data.name}</strong>
 						</CardTitle>
-						{/* <CardSubtitle tag="h5" className="mb-2">
-							{data.role}
-						</CardSubtitle>
-						<CardSubtitle>{data.date}</CardSubtitle> */}
 						<CardText
 							tag="div"
 							className="description my-3 text-center"

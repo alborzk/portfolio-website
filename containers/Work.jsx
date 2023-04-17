@@ -58,32 +58,6 @@ const Work = () => {
 											</Col>
 										</Row>
 										)})}							
-								{/* <div className="d-flex justify-content-center flex-wrap mb-2">
-									{section.job1.map((skill, i) => {
-										return (
-											<Fragment key={i}>
-												<div
-													className="icon icon-lg icon-shape shadow-sm rounded-circle m-1"
-													id={skill.skillName.replace(/\s/g, '')}
-												>
-													<Icon
-														icon={
-															skill.fontAwesomeClassname
-														}
-														data-inline="false"
-													></Icon>
-												</div>
-												<UncontrolledTooltip
-													delay={0}
-													placement="bottom"
-													target={skill.skillName.replace(/\s/g, '')}
-												>
-													{skill.skillName}
-												</UncontrolledTooltip>
-											</Fragment>
-										);
-									})}
-								</div> */}
 							</Fade>
 						</Col>
 					</Row>
