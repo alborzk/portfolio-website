@@ -56,7 +56,8 @@ export const skillsSection = {
 				{ skillName: "Python", fontAwesomeClassname: "logos:python", },
 				{ skillName: "Git", fontAwesomeClassname: "logos:git-icon", },													
 				{ skillName: "Android Studio", fontAwesomeClassname: "logos:android-icon", },					
-				{ skillName: "Unity", fontAwesomeClassname: "logos:unity", },											
+				{ skillName: "Unity", fontAwesomeClassname: "logos:unity", },
+				{ skillName: "Jira", fontAwesomeClassname: "logos:jira", },
 				{ skillName: "IntelliJ", fontAwesomeClassname: "logos:intellij-idea", },	
 				{ skillName: "PyCharm", fontAwesomeClassname: "logos:pycharm", },				
 				{ skillName: "JUnit5", fontAwesomeClassname: "simple-icons:junit5", },												
@@ -81,11 +82,10 @@ export const skillsSection = {
 				{ skillName: "Bootstrap", fontAwesomeClassname: "logos:bootstrap", },				
 				{ skillName: "Tailwind", fontAwesomeClassname: "logos:tailwindcss-icon", },		
 				// { skillName: "Bulma", fontAwesomeClassname: "logos:bulma", },						
-				{ skillName: "VSCode", fontAwesomeClassname: "vscode-icons:file-type-vscode", },		
+				{ skillName: "VSCode", fontAwesomeClassname: "vscode-icons:file-type-vscode", },
+				{ skillName: "Node", fontAwesomeClassname: "logos:nodejs-icon", },			
 				{ skillName: "Next", fontAwesomeClassname: "logos:nextjs-icon", },		
 				{ skillName: "Markdown", fontAwesomeClassname: "vscode-icons:file-type-markdown", },
-				// { skillName: "Yarn", fontAwesomeClassname: "vscode-icons:file-type-yarn", },				
-				// { skillName: "NPM", fontAwesomeClassname: "logos:npm-icon",},
 				// { skillName: "Jekyll", fontAwesomeClassname: "cib:jekyll", },	
 			],
 		},
@@ -99,11 +99,14 @@ export const skillsSection = {
 			],
 			softwareSkills: [
 				{ skillName: "C", fontAwesomeClassname: "noto-v1:letter-c",},
-				{ skillName: "Shell", fontAwesomeClassname: "vscode-icons:file-type-powershell", },	
+				{ skillName: "AWS", fontAwesomeClassname: "logos:aws", },											
+				{ skillName: "Arduino", fontAwesomeClassname: "skill-icons:arduino", },
+				{ skillName: "PowerShell", fontAwesomeClassname: "vscode-icons:file-type-powershell", },	
 				{ skillName: "SQL", fontAwesomeClassname: "vscode-icons:file-type-sql", },				
 				{ skillName: "Neo4J", fontAwesomeClassname: "simple-icons:neo4j", },	
-				{ skillName: "MySQL", fontAwesomeClassname: "vscode-icons:file-type-mysql", },	
-				{ skillName: "Assembly", fontAwesomeClassname: "vscode-icons:file-type-assembly", },		
+				// { skillName: "MySQL", fontAwesomeClassname: "vscode-icons:file-type-mysql", },
+				// { skillName: "PostgreSQL", fontAwesomeClassname: "logos:postgresql", },	
+				// { skillName: "Assembly", fontAwesomeClassname: "vscode-icons:file-type-assembly", },		
 				// { skillName: "Prolog", fontAwesomeClassname: "vscode-icons:file-type-prolog", },																																			
 				// { skillName: "OpenGL", fontAwesomeClassname: "logos:opengl", },
 				// { skillName: "Drawio", fontAwesomeClassname: "vscode-icons:file-type-drawio", },																							
@@ -136,13 +139,10 @@ export const skillsSection = {
 				{ skillName: "Docker", fontAwesomeClassname: "logos:docker-icon", },																													
 				// { skillName: "C Plus Plus", fontAwesomeClassname: "logos:c-plusplus", },				
 				{ skillName: "MongoDB", fontAwesomeClassname: "logos:mongodb-icon", },		
-				// { skillName: "PostgreSQL", fontAwesomeClassname: "logos:postgresql", },
 				{ skillName: "Firebase", fontAwesomeClassname: "logos:firebase", },	
 				{ skillName: "Go", fontAwesomeClassname: "logos:go", },																								
 				{ skillName: "Swift", fontAwesomeClassname: "vscode-icons:file-type-swift", },							
-				{ skillName: "Kotlin", fontAwesomeClassname: "logos:kotlin-icon", },
-				{ skillName: "AWS", fontAwesomeClassname: "logos:aws", },				
-				// { skillName: "Arduino", fontAwesomeClassname: "vscode-icons:file-type-arduino", },											
+				{ skillName: "Kotlin", fontAwesomeClassname: "logos:kotlin-icon", },															
 			],				
 		},
 	],
@@ -153,7 +153,7 @@ export const educationInfo = [
 		img: "/img/icons/common/um-icon.jpg",
 		schoolName: ("University of Manitoba"),
 		subHeader: "BSc. in Computer Science (Co-Op)",
-		duration: "Sep 2019 - Present (Dec 2024 Expected)",
+		duration: "May 2022 - Present (Feb 2025 Expected)",
 		grade: "Leader of Tomorrow Scholar",
 		grade2: "President's Scholar",
 		descBullets: [
@@ -184,34 +184,35 @@ export const educationInfo = [
 export const workSection = {
 	title: "Career",
 	resumeLink:
-		"https://drive.google.com/file/d/1Tzxv--GOOp3qnMVMYD-4TYeZR6VWutLY/view?usp=sharing",
+		"https://drive.google.com/file/d/1onoQ1cHst1FhILpROTqANXTIZtM88vrX/view?usp=sharing",
 	linkedIn:
 		"https://www.linkedin.com/in/alborzk",	
 	// subTitle:
 	// 	"A walkthrough of my career so far!",
 	data: [
-		// 	{
-		// 	company: "Gryd",
-		// 	// companylogo: "img/icons/common/Gryd.jpg",	
-		// 	lottieAnimationFile: "/lottie/career/aafc.json",
-		// 	positions: [
-		// 				{
-		// 				title: "Assistant Product Manager",
-		// 				duration: "Jan 2022 - Present",
-		// 				responsibilities: [
-		// 					(" ▪️ At AAFC, I gathered data for 20+ crop research studies, helping to develop new Agronomy methods for Canadian farmers!"),
-		// 					(" ▪️ I learned about agricultural fieldwork with a close-knit group of students, working together to ensure that our gathered data was accurate and collected at the appropriate time."),
-		// 					(" ▪️ I also composed a number of literature reviews, working directly with researchers to aid in writing scientific papers!"),
-		// 				],
-		// 			}
-		// 	],
-		// },	
+			{
+			company: "Gryd",
+			// companylogo: "img/icons/common/Gryd.jpg",	
+			lottieAnimationFile: "/lottie/career/gryd.json",
+			positions: [
+						{
+						title: "Assistant Product Manager (Co-Op)",
+						duration: "Jan 2022 - Present",
+						responsibilities: [
+							(" ▪️ At Gryd, I've been spearheading work on GrydPark's flagship mobile app for 2000+ active users."),
+							(" ▪️ I'm also leading the work on some IoT hardware, using Arduino/AWS to reduce its latency to <1s!"),
+							(" ▪️ I design product wireframes, flowcharts, specs, and roadmaps to guide development along Q1 & Q2"),
+							(" ▪️ I collaborate cross-functionally in a fast-moving startup with devs, designers, and stakeholders to meet client needs!"),
+						],
+					}
+			],
+		},	
 		{
 			company: "Agriculture and Agri-Food Canada",	
 			lottieAnimationFile: "/lottie/career/aafc.json",
 			positions: [
 						{
-						title: "Research Student",
+						title: "Research Assistant",
 						duration: "May 2020 - Sep 2022",
 						responsibilities: [
 							(" ▪️ At AAFC, I gathered data for 20+ crop research studies, helping to develop new Agronomy methods for Canadian farmers!"),
