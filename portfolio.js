@@ -375,7 +375,7 @@ export const projects = [
 		tools: [
 				{ toolName: "Java", toolIcon: "la:java", },			
 				{ toolName: "SQL", toolIcon: "carbon:sql", },
-				{ toolName: "MySQL", toolIcon: "fontisto:mysql", },
+				// { toolName: "MySQL", toolIcon: "fontisto:mysql", },
 				{ toolName: "Git", toolIcon: "bxl:git", },							
 			],		
 		desc: "A database tool for the video game “League of Legends”, allowing users to see tables of game data or get results for specific queries!",
