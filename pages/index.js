@@ -1,6 +1,5 @@
 import dynamic from "next/dynamic";
 import PropTypes from "prop-types";
-import { useEffect } from "react";
 
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
@@ -19,15 +18,6 @@ import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
 
 export default function Home({ githubProfileData }) {
-	useEffect(() => {
-	function loadHotjarTracking() {
-		var iframe = document.createElement("iframe");
-		iframe.style.display = "none";
-		iframe.src = "hotjar-tracking.html";
-		document.body.appendChild(iframe);
-	}
-	loadHotjarTracking();
-	}, []);
 	return (
 		<div>
 			<SEO />
