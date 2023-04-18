@@ -47,6 +47,9 @@ const RecommendCard = ({ data }) => {
 						<CardSubtitle tag="p" className="mb-3" id="section-title" >
 							{data.subtitle}
 						</CardSubtitle>
+						<CardText tag="div" className="description my-3 text-center">
+							{data.desc}
+						</CardText>
 					</CardBody>
 				</Card>
 			</Fade>

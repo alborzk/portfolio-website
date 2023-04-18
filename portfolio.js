@@ -46,10 +46,10 @@ export const skillsSection = {
 			title: "Software Engineering",
 			lottieAnimationFile: "/lottie/skills/software.json", // Path of Lottie Animation JSON File
 			skills: [
-				" ▪️ Well versed in object-oriented programming and SOLID design principles",
-				" ▪️ Experience with data structures and algorithms, optimizing for space/time efficiency",
-				" ▪️ Agile development, version control, issue tracking and unit testing",
-				" ▪️ Effective prototyping strategies, architecture and software design",
+				" ▪️ Object-oriented programming and SOLID design",
+				" ▪️ Data structures, algorithms, and space/time optimization",
+				" ▪️ Agile development, version control, issue tracking, and unit testing",
+				" ▪️ Wireframing, prototyping, and architectural design",
 			],
 			softwareSkills: [
 				{ skillName: "Java", fontAwesomeClassname: "logos:java", },
@@ -68,10 +68,9 @@ export const skillsSection = {
 			title: "Web Development",
 			lottieAnimationFile: "/lottie/skills/webdev.json", // Path of Lottie Animation JSON File
 			skills: [
-					(" ▪️ Well equipped with modern web development frameworks like React and Bootstrap"),
-					(" ▪️ Experience with both structured web apps and simple websites"),
-					(" ▪️ Understanding of practices to optimize web performance"),
-					(" ▪️ Excellent communicator for API documentation "),		
+					(" ▪️ Modern web development frameworks for websites or web apps"),
+					(" ▪️ Optimizing performance via server-side rendering and resource compression"),
+					(" ▪️ Static sites for READMEs and API documentation"),		
 			],
 			softwareSkills: [
 				{ skillName: "HTML-5", fontAwesomeClassname: "vscode-icons:file-type-html", },
@@ -93,9 +92,10 @@ export const skillsSection = {
 			title: "Systems & Databases",
 			lottieAnimationFile: "/lottie/skills/systems.json",
 			skills: [
-				(" ▪️ Solid understanding of computer organization and low-level programming"),
-				(" ▪️ Experience constructing relational databases and SQL queries"),
-				(" ▪️ Practiced smart database design via ER diagrams and normalization"),					
+					(" ▪️ Smart database design via ER diagrams and normalization"),
+					(" ▪️ IoT embedded systems and cloud-connected hardware"),	
+					(" ▪️ Artificial intelligence research and object recognition"),			
+					(" ▪️ Understanding of computer organization & low level programming"),			
 			],
 			softwareSkills: [
 				{ skillName: "C", fontAwesomeClassname: "noto-v1:letter-c",},
@@ -182,13 +182,13 @@ export const educationInfo = [
 ];
 
 export const workSection = {
-	title: "Career",
+	title: "Journey",
 	resumeLink:
 		"https://drive.google.com/uc?export=view&id=1onoQ1cHst1FhILpROTqANXTIZtM88vrX",
 	linkedIn:
 		"https://www.linkedin.com/in/alborzk",	
-	// subTitle:
-	// 	"A walkthrough of my career so far!",
+	subTitle:
+		"A walkthrough of my career so far!",
 	data: [
 			{
 			company: "Gryd",
@@ -199,10 +199,12 @@ export const workSection = {
 						title: "Assistant Product Manager (Co-Op)",
 						duration: "Jan 2022 - Present",
 						responsibilities: [
-							(" ▪️ At Gryd, I've been spearheading work on GrydPark's flagship mobile app for 2000+ active users."),
-							(" ▪️ I'm also leading the work on some IoT hardware, using Arduino/AWS to reduce its latency to <1s!"),
-							(" ▪️ I design product wireframes, flowcharts, specs, and roadmaps to guide development along Q1 & Q2"),
-							(" ▪️ I collaborate cross-functionally in a fast-moving startup with devs, designers, and stakeholders to meet client needs!"),
+							("My first co-op at the PropTech startup Gryd has been a ton of fun! I've been leading the work on some major projects, two of which really stand out. The first has been working on GrydPark's flagship mobile app for 2000+ active users, and the second is an IoT secure parking hardware that uses Arduino/AWS to communicate over the cloud!"),
+							("Day to day, I design product wireframes, flowcharts, specs, and roadmaps to guide our development team, and collaborate cross-functionally with devs, designers, and stakeholders to meet our client's needs."),
+							// (" ▪️ At Gryd, I've been spearheading work on GrydPark's flagship mobile app for 2000+ active users."),
+							// (" ▪️ I'm also leading the work on some IoT hardware, using Arduino/AWS to reduce its latency to <1s!"),
+							// (" ▪️ I design product wireframes, flowcharts, specs, and roadmaps to guide development along Q1 & Q2"),
+							// (" ▪️ I collaborate cross-functionally in a fast-moving startup with devs, designers, and stakeholders to meet client needs!"),
 						],
 					}
 			],
@@ -215,9 +217,11 @@ export const workSection = {
 						title: "Research Assistant",
 						duration: "May 2020 - Sep 2022",
 						responsibilities: [
-							(" ▪️ At AAFC, I gathered data for 20+ crop research studies, helping to develop new Agronomy methods for Canadian farmers!"),
-							(" ▪️ I learned about agricultural fieldwork with a close-knit group of students, working together to ensure that our gathered data was accurate and collected at the appropriate time."),
-							(" ▪️ I also composed a number of literature reviews, working directly with researchers to aid in writing scientific papers!"),
+							// (" ▪️ At AAFC, I gathered data for 20+ crop research studies, helping to develop new Agronomy methods for Canadian farmers!"),
+							// (" ▪️ I learned about agricultural fieldwork with a close-knit group of students, working together to ensure that our gathered data was accurate and collected at the appropriate time."),
+							// (" ▪️ I also composed a number of literature reviews, working directly with researchers to aid in writing scientific papers!"),
+							("At AAFC, I had the opportunity to be a part of over 30+ crop research studies, helping develop some really interesting solutions for Canadian farmers. As part of a close-knit student team, I collected crop data on the field and organized it in Excel so that it could be easily analyzed by researchers."),
+							("I was also the author 2 literature reviews, breaking down complex information concisely to help researchers write scientific papers!"),
 						],
 					}
 			],
@@ -230,18 +234,20 @@ export const workSection = {
 						title: "Graduation Head Director",
 						duration: "Sep 2020 - Aug 2021",
 						responsibilities: [
-							(" ▪️ In my second year, I directed a small team of fellow engineering students to fund and organize Graduation ceremonies for 150+ graduating engineers!"),
-							(" ▪️ I represented the directorship within UMES, formally speaking to 80+ members during meetings and casting important votes on its behalf."),
-							(" ▪️ I also connected with sponsors and maintained professional relationships to keep our funding secure."),							
+							("In my second year of University, I served as the representative for 150+ graduating engineers, speaking formally to 80+ UMES members and casting votes on their behalf. I also led the planning for our graduating ceremonies, and connected with sponsors to keep our funding secure over COVID-19."),
+							// (" ▪️ In my second year, I directed a small team of fellow engineering students to fund and organize Graduation ceremonies for 150+ graduating engineers!"),
+							// (" ▪️ I represented the directorship within UMES, formally speaking to 80+ members during meetings and casting important votes on its behalf."),
+							// (" ▪️ I also connected with sponsors and maintained professional relationships to keep our funding secure."),							
 						],
 					},
 					{
 						title: "First Year Committee Director",
 						duration: "Sep 2019 - Aug 2020",
 						responsibilities: [
-							(" ▪️ In my first year, I led a team of fellow freshmen, planning and organizing events for 800+ others within the faculty!"),
-							// emoji(" ▪️ I acted as the representative for 300+ engineering freshmen, speaking on their behalf at meetings and learning about the formal procedures within UMES."),
-							(" ▪️ I ushered the planning for fun events such as our Bob Ross Paint Night and November Nintendo Night, which had incredible turnouts and were executed with no issues!"),
+							("In my first year, I learned about the formal procedures within UMES, represented 300+ engineering freshmen, and led the planning for a ton of fun events. My two favorites were our 'Bob Ross Paint Night' and our 'November Nintendo Night'!"),
+							// (" ▪️ In my first year, I led a team of fellow freshmen, planning and organizing events for 800+ others within the faculty!"),
+							//(" ▪️ I acted as the representative for 300+ engineering freshmen, speaking on their behalf at meetings and learning about the formal procedures within UMES."),
+							// (" ▪️ I ushered the planning for fun events such as our Bob Ross Paint Night and November Nintendo Night, which had incredible turnouts and were executed with no issues!"),
 						],
 					}
 			],
@@ -252,11 +258,14 @@ export const workSection = {
 			positions: [
 					{
 						title: "Team Leader",
-						duration: "Jul 2018 - Sep 2020",
+						duration: "Aug 2016 - Sep 2020",
 						responsibilities: [
-							(" ▪️ At Domino's, I ran the store during the day - fulfilling orders while also multitasking to prepare the store and its inventory for the supper rush."),
-							(" ▪️ I spearheaded supper rushes under incredible pressure, often preparing 200+ items in an hour along with a team of 3-4 other line cooks!"),
-							(" ▪️ I played a managerial role for the store and its employees, making sure orders were consistently high quality and ready under target numbers."),
+							("Domino's was my first team-oriented job, my main job throughout high school, and the job where I met some of my closest friends today!"),
+							("I ran the store mostly by myself during the day, preparing orders while also getting the store and its inventory ready for the supper rush. During the rush, I played an anchoring role as our dough stretcher and often prepared 200+ items in an hour along with a team of 3-4 other line cooks!"),
+							("I played a managerial role for the store and its employees, making sure orders were always high quality and ready under our target numbers."),
+							// (" ▪️ At Domino's, I ran the store during the day - fulfilling orders while also multitasking to prepare the store and its inventory for the supper rush."),
+							// (" ▪️ I spearheaded supper rushes under incredible pressure, often preparing 200+ items in an hour along with a team of 3-4 other line cooks!"),
+							// (" ▪️ I played a managerial role for the store and its employees, making sure orders were consistently high quality and ready under target numbers."),
 						],
 					},
 			// 		{
@@ -278,9 +287,11 @@ export const workSection = {
 						title: "Referee",
 						duration: "May 2015 - Jun 2017",
 						responsibilities: [
-							(" ▪️ Starting out my journey, I refereed youth soccer games from ages 9-18, with older divisions requiring intense concentration and confidence in making decisions."),
-							(" ▪️ I communicated fouls and reasonings to players, coaches, and parents, resolving conflicts that arose as a result!"),
-							(" ▪️ I often did my job independently, without a budget for assistants or linesmen."),
+							("My first job!"),
+							("As a teen, I refereed youth (9-18 y/o) soccer games, with the older divisions requiring some pretty heavy concentration and confidence in making decisions since I was alone. I had to communicate my calls and their reasonings to players, coaches, and parents, and resolve any conflicts that would come up as a result!"),
+							// (" ▪️ Starting out my journey, I refereed youth soccer games from ages 9-18, with older divisions requiring intense concentration and confidence in making decisions."),
+							// (" ▪️ I communicated fouls and reasonings to players, coaches, and parents, resolving conflicts that arose as a result!"),
+							// (" ▪️ I often did my job independently, without a budget for assistants or linesmen."),
 						],
 					}
 			],
@@ -290,9 +301,9 @@ export const workSection = {
 
 export const hobbies = [
 	{
-		name: "Basketball",
+		name: "Sports",
 		icon: "ic:twotone-sports-basketball",		
-		desc: "I love to play with friends, and I'm just about always up to date on the current NBA season. Go Raptors!"
+		desc: "I keep up with the NBA every fall/winter, get super competitive with rec soccer in the spring, and get outdoors with golf in the summer!"
 	},	
 	{
 		name: "Gym",
@@ -302,7 +313,7 @@ export const hobbies = [
 	{
 		name: "Music",
 		icon: "ic:twotone-headphones",			
-		desc: "I collect vinyl records and listen to just about every genre of music. R&B, Hip-Hop, and Alternative are my favourites!",
+		desc: "I collect vinyl records and listen to just about every genre of music. R&B, Rap, and Alternative are my favourites!",
 	},	
 	{
 		name: "Coding!",
@@ -421,7 +432,7 @@ export const projects = [
 ];
 
 export const recommendations = [
-	{ name: "VSCode", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/vscode.png", link: "https://code.visualstudio.com/" },
+	{ name: "VSCode", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/vscode.png", link: "https://code.visualstudio.com/"},
 	{ name: "IntelliJ", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/intellij.png", link: "https://www.jetbrains.com/idea/" },
 	{ name: "PyCharm", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/pycharm.png", link: "https://www.jetbrains.com/pycharm/" },
 	// { name: "Copilot", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/copilot.png", link: "https://github.com/features/copilot" },
@@ -439,6 +450,24 @@ export const recommendations = [
 	{ name: "Unsplash", subtitle: "Resources", logo: "img/icons/common/recommendations/unsplash.png", link: "https://unsplash.com/"},
 	{ name: "Dall-E", subtitle: "Resources", logo: "img/icons/common/recommendations/dalle.png", link: "https://openai.com/dall-e-2/"},
 ]; 
+
+	// { name: "VSCode", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/vscode.png", link: "https://code.visualstudio.com/", desc: "My favorite code editor for anything web dev!"},
+	// { name: "IntelliJ", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/intellij.png", link: "https://www.jetbrains.com/idea/", desc: "My primary code editor when it comes to Java!"},
+	// { name: "PyCharm", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/pycharm.png", link: "https://www.jetbrains.com/pycharm/", desc: "IntelliJ but for Python!" },
+	// // { name: "Copilot", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/copilot.png", link: "https://github.com/features/copilot" },
+	// { name: "Scribe", subtitle: "Image Capture", logo: "img/icons/common/recommendations/scribe.png", link: "https://scribehow.com/", desc: "I love this for making GIFs in my READMEs!" },
+	// { name: "Gyazo", subtitle: "Image Capture", logo: "img/icons/common/recommendations/gyazo.png", link: "https://gyazo.com/", desc: "Scribe but for images - way more convenient to use than snipping tool!" },
+	// { name: "Spark", subtitle: "Communication", logo: "img/icons/common/recommendations/spark.png", link: "https://sparkmailapp.com/"},	
+	// { name: "Typeform", subtitle: "Surveys", logo: "img/icons/common/recommendations/typeform.png", link: "https://www.typeform.com/", desc: "Great for surveys!" },
+	// { name: "Vercel", subtitle: "Web Hosting", logo: "img/icons/common/recommendations/vercel.jpg", link: "https://vercel.com/", desc: "My go-to for hosting websites or web apps!" },
+	// { name: "Magic Eraser", subtitle: "Utilities", logo: "img/icons/common/recommendations/eraser.svg", link: "https://www.magiceraser.io/", desc: "Erases things from your images!"},
+	// { name: "Squoosh", subtitle: "Utilities", logo: "img/icons/common/recommendations/squoosh.jpg", link: "https://squoosh.app/", desc: "Compresses your img resources - optimization is key!" },	
+	// { name: "Figma", subtitle: "Prototyping", logo: "img/icons/common/recommendations/figma.png", link: "https://www.figma.com/", desc: "A must have for prototyping/ideating!" },
+	// { name: "Iconify", subtitle: "Resources", logo: "img/icons/common/recommendations/iconify.png", link: "https://iconify.design/", desc: "Fontawesome but with more brands/colors!" },
+	// { name: "Blush", subtitle: "Resources", logo: "img/icons/common/recommendations/blush.jpg", link: "https://blush.design/", desc: "Tons of free illustrations to use!"},	
+	// { name: "Canva", subtitle: "Resources", logo: "img/icons/common/recommendations/canva.jpg", link: "https://https://www.canva.com/", desc: "I use this all the time to make my own designs!"},	
+	// { name: "Unsplash", subtitle: "Resources", logo: "img/icons/common/recommendations/unsplash.png", link: "https://unsplash.com/", desc: "More resources - great for backgrounds!"},
+	// { name: "Dall-E", subtitle: "Resources", logo: "img/icons/common/recommendations/dalle.png", link: "https://openai.com/dall-e-2/", desc: "Just super cool!"},
 
 // export const feedbacks = [
 // 	{
