@@ -55,9 +55,9 @@ export const skillsSection = {
 				{ skillName: "Java", fontAwesomeClassname: "logos:java", },
 				{ skillName: "Python", fontAwesomeClassname: "logos:python", },
 				{ skillName: "Git", fontAwesomeClassname: "logos:git-icon", },													
+				{ skillName: "Jira", fontAwesomeClassname: "logos:jira", },
 				{ skillName: "Android Studio", fontAwesomeClassname: "logos:android-icon", },					
 				{ skillName: "Unity", fontAwesomeClassname: "logos:unity", },
-				{ skillName: "Jira", fontAwesomeClassname: "logos:jira", },
 				{ skillName: "IntelliJ", fontAwesomeClassname: "logos:intellij-idea", },	
 				{ skillName: "PyCharm", fontAwesomeClassname: "logos:pycharm", },				
 				{ skillName: "JUnit5", fontAwesomeClassname: "simple-icons:junit5", },												
@@ -184,7 +184,7 @@ export const educationInfo = [
 export const workSection = {
 	title: "Career",
 	resumeLink:
-		"https://drive.google.com/file/d/1onoQ1cHst1FhILpROTqANXTIZtM88vrX/view?usp=sharing",
+		"https://drive.google.com/uc?export=view&id=1onoQ1cHst1FhILpROTqANXTIZtM88vrX",
 	linkedIn:
 		"https://www.linkedin.com/in/alborzk",	
 	// subTitle:

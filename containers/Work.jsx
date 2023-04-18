@@ -67,13 +67,13 @@ const Work = () => {
 				<h4 className="mb-1 mt-lg-6" id="section-title"><strong>See more!</strong></h4>
 			</Fade>
 			<Fade duration={2000}><Row lg="4"><Col>
-			<Button className="btn-primary btn-icon mt-3 mb-3 ml-1 rounded-4" color="default" href={workSection.resumeLink}>
+			<Button className="btn-primary btn-icon mt-3 mb-3 ml-1 rounded-4" color="default" href={workSection.resumeLink} target="_blank">
 					<Icon icon="ri:file-paper-fill" width="24px" height="24px"></Icon>
 					<span className="btn-inner--text text-capitalize">
 						Resume
 					</span>
 			</Button>
-			<Button className="btn-dark btn-icon mt-3 ml-1 mb-3 rounded-4" color="default" href={workSection.linkedIn}>
+			<Button className="btn-dark btn-icon mt-3 ml-1 mb-3 rounded-4" color="default" href={workSection.linkedIn} >
 					<Icon icon="ci:linkedin" width="24px" height="24px"></Icon>
 					<span className="btn-inner--text text-capitalize">
 						LinkedIn
