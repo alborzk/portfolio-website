@@ -458,7 +458,7 @@ export const seoData = {
 	description:
 		"A computer science student skilled in Java and Web Development.",
 	author: "Alborz Khakbazan",
-	image: "img/icons/common/avatar.jpg",
+	image: "img/icons/common/selfie.jpg",
 	url: "https://alborzk.me",
 	keywords: [
 		"Alborz", "Alborz Khakabzan", "Alborz Portfolio ", "Alborz Khakbazan Portfolio", "Portfolio", "@alborzk", "alborzk",
