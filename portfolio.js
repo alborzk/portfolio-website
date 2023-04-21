@@ -490,6 +490,6 @@ export const seoData = {
 	image: "img/icons/common/selfie.jpg",
 	url: "https://alborzk.me",
 	keywords: [
-		"Alborz", "Alborz Khakabzan", "Alborz Portfolio ", "Alborz Khakbazan Portfolio", "Portfolio", "@alborzk", "alborzk",
+		"Alborz", "Alborz Khakbazan", "Alborz Portfolio ", "Alborz Khakbazan Portfolio", "Portfolio", "@alborzk", "alborzk",
 	],
 }

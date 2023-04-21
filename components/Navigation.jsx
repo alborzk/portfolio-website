@@ -1,20 +1,23 @@
 import React, { useState, useEffect } from "react";
-// import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import { greetings, socialLinks } from "../portfolio";
 import Headroom from "headroom.js";
+import { UncontrolledCollapse, NavbarBrand, Navbar, NavItem, NavLink, Nav, Container, Row, Col } from "reactstrap";
+import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
-import {
-	UncontrolledCollapse,
-	NavbarBrand,
-	Navbar,
-	NavItem,
-	NavLink,
-	Nav,
-	Container,
-	Row,
-	Col,
-} from "reactstrap";
+
+const DividerNavItem = () => (
+  <NavItem>
+    <div
+      style={{
+        width: "2px",
+        height: "24px",
+        backgroundColor: "rgba(255, 255, 255, 0.5)",
+        margin: "0 15px",
+      }}
+    />
+  </NavItem>
+);
 
 const Navigation = () => {
 	const [collapseClasses, setCollapseClasses] = useState("");
@@ -30,32 +33,34 @@ const Navigation = () => {
 
 	return (
 		<>
-			<header className="header-global">
-				<Navbar
-					className="navbar-main navbar-transparent navbar-light headroom"
-					expand="lg"
-					id="navbar-main"
-				>
-					<Container>
-						<NavbarBrand href="/" className="mr-lg-5">
-							<h3 className="text-white" id="nav-title">
-								{greetings.name}
-							</h3>
-						</NavbarBrand>
-						<button
-							className="navbar-toggler"
-							aria-label="navbar_toggle"
-							id="navbar_global"
-						>
-							<span className="navbar-toggler-icon" />
-						</button>
-						<UncontrolledCollapse
-							toggler="#navbar_global"
-							navbar
-							className={collapseClasses}
-							onExiting={onExiting}
-							onExited={onExited}
-						>
+          <header className="header-global">
+                <Navbar
+                    className="navbar-main navbar-transparent navbar-light headroom"
+                    expand="lg"
+                    id="navbar-main"
+                >
+                    <Container>
+                        <Link href="/" passHref>
+                            <NavbarBrand className="mr-lg-5">
+                                <h3 className="text-white" id="nav-title">
+                                    {greetings.name}
+                                </h3>
+                            </NavbarBrand>
+                        </Link>
+                        <button
+                            className="navbar-toggler"
+                            type="button"
+                            id="navbar_global"
+                        >
+                            <span className="navbar-toggler-icon" />
+                        </button>
+                        <UncontrolledCollapse
+                            toggler="#navbar_global"
+                            navbar
+                            className={collapseClasses}
+                            onExiting={onExiting}
+                            onExited={onExited}
+                        >
 							<div className="navbar-collapse-header">
 								<Row>
 									<Col className="collapse-brand" xs="6">
@@ -81,6 +86,46 @@ const Navigation = () => {
 								className="align-items-lg-center ml-lg-auto"
 								navbar
 							>
+							<NavItem>
+								<ScrollLink
+								to="skills"
+								spy={true}
+								smooth={true}
+								offset={-70}
+								duration={500}
+								className="nav-link"
+								style={{ cursor: "pointer" }}
+								>
+								Skills
+								</ScrollLink>
+							</NavItem>	
+							<NavItem>
+								<ScrollLink
+								to="work"
+								spy={true}
+								smooth={true}
+								offset={-70}
+								duration={500}
+								className="nav-link"
+								style={{ cursor: "pointer" }}
+								>
+								Career
+								</ScrollLink>
+							</NavItem>
+							<NavItem>
+								<ScrollLink
+								to="projects"
+								spy={true}
+								smooth={true}
+								offset={-70}
+								duration={500}
+								className="nav-link"
+								style={{ cursor: "pointer" }}
+								>
+								Projects
+								</ScrollLink>
+							</NavItem>
+							<DividerNavItem />
 								{socialLinks.email && (
 									<NavItem>
 										<NavLink

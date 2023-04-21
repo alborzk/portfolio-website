@@ -7,7 +7,7 @@ import { workSection } from "../portfolio";
 
 const Work = () => {
 	return workSection && (
-		<section className="">
+		<section id ="work" className="">
 			<Container className="text-center my-5 section section-lg">	
 			<Fade duration={2000}><h1 className="display-3" id="section-title"><strong>{workSection.title}</strong></h1></Fade>
 			{workSection.data.map((section, index) => {

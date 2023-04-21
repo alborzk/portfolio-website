@@ -12,11 +12,7 @@ const ProjectsCard = ({ data }) => {
 						<div className="d-flex px-3">
 							<div className="pl-4">
 								<h4 className="mb-0"  id="section-title"><strong>{data.name}</strong></h4>
-
 								{data.tools ? (
-									// <span className="btn-inner--icon">
-									// 	<i className="fa-brands fa-github" />
-									// </span>
 								data.tools.map((tool, i) => {
 									return (
 										<Fragment key={i}>

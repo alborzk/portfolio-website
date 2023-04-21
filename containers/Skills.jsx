@@ -7,6 +7,7 @@ import { skillsSection } from "../portfolio";
 
 const Skills = () => {
 	return skillsSection && (
+		<section id ="skills" className="">
 		<Container className="text-center my-5 section">		
 			<Fade duration={2000}>
 			<h1 className="display-3" id="section-title"><strong>{skillsSection.title}</strong></h1>			
@@ -59,6 +60,7 @@ const Skills = () => {
 				);
 			})}
 		</Container>
+	</section>
 	);
 };
 
