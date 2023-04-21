@@ -10,7 +10,7 @@ const GithubProfileCard = ({ prof }) => {
         <Bounce>
           <Row>
             <Col lg="8">
-              <h2 className="display-3 text-white">Let's connect!</h2>
+              <h2 className="display-3 text-white">Let&rsquo;s connect!</h2>
               <p className="lead text-white mt-3">
                 Feel free to send me an email, or connect with me at any of the links below!
               </p>
