@@ -9,13 +9,6 @@ const GithubProfileCard = ({ prof }) => {
       <Container>
         <Bounce>
           <Row>
-            <Col lg="8">
-              <h2 className="display-3 text-white">Let&rsquo;s connect!</h2>
-              <p className="lead text-white mt-3">
-                Feel free to send me an email, or connect with me at any of the links below!
-              </p>
-              <SocialLinks />
-            </Col>
             <Col lg="4" className="d-flex justify-content-center">
               <img
                 src={prof.avatar_url}
@@ -23,6 +16,13 @@ const GithubProfileCard = ({ prof }) => {
                 alt=""
                 className="rounded-circle img-fluid shadow shadow-lg--hover mb-4"
               />
+            </Col>
+            <Col lg="8">
+              <h2 className="display-3 text-white">Let&rsquo;s connect!</h2>
+              <p className="lead text-white mt-3">
+                Feel free to send me an email, or connect with me at any of the links below!
+              </p>
+              <SocialLinks />
             </Col>
           </Row>
         </Bounce>
