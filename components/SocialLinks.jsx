@@ -54,7 +54,7 @@ const SocialLinks = () => {
           <Icon icon="simple-icons:instagram" width="20px" height="20px"></Icon>
         </span>
       </Button>
-      <Button
+      {/* <Button
         className="btn-icon-only rounded-circle ml-1"
         color="dark"
         href={socialLinks.facebook}
@@ -89,7 +89,7 @@ const SocialLinks = () => {
         <span className="btn-inner--icon">
           <Icon icon="cib:medium-m" width="20px" height="20px"></Icon>
         </span>
-      </Button>
+      </Button> */}
     </div>
   );
 };
