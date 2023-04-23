@@ -340,6 +340,17 @@ export const projects = [
 		demo: "https://roundtable.vercel.app",
 	},		
 	{
+		name: "Basketbot",
+		tools: [
+				{ toolName: "Python", toolIcon: "bxl:python", },											
+				{ toolName: "Discord py", toolIcon: "bxl:discord-alt", },										
+				{ toolName: "Git", toolIcon: "bxl:git", },																								
+			],				
+		desc: "A fun Discord bot that allows you to quickly access NBA standings, rosters, schedules, and more!",
+		github: "https://github.com/alborzk/basketbot",
+		demo: "https://roundtable.vercel.app",
+	},		
+	{
 		name: "Portfolio Website",
 		tools: [
 				{ toolName: "HTML5", toolIcon: "bxl:html5", },
