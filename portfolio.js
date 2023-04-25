@@ -348,7 +348,7 @@ export const projects = [
 			],				
 		desc: "A fun Discord bot that allows you to quickly access NBA standings, rosters, schedules, and more!",
 		github: "https://github.com/alborzk/basketbot",
-		demo: "https://roundtable.vercel.app",
+		demo: "https://discord.com/api/oauth2/authorize?client_id=1042343121821904976&permissions=1634235578432&scope=bot",
 	},		
 	{
 		name: "Portfolio Website",
