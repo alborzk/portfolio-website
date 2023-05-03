@@ -199,7 +199,7 @@ export const workSection = {
 						title: "Assistant Product Manager (Co-Op)",
 						duration: "Jan 2022 - Present",
 						responsibilities: [
-							("My first co-op at the PropTech startup Gryd has been a ton of fun! I've been leading the work on some major projects, two of which really stand out. The first has been working on GrydPark's flagship mobile app for 2000+ active users, and the second is an IoT secure parking hardware that uses Arduino/AWS to communicate over the cloud!"),
+							("My first co-op at the PropTech startup Gryd has been a ton of fun! I've been leading the work on some major projects that you'll hopefully see launched somewhere in the near future!"),
 							("Day to day, I design product wireframes, flowcharts, specs, and roadmaps to guide our development team, and collaborate cross-functionally with devs, designers, and stakeholders to meet our client's needs."),
 							// (" ▪️ At Gryd, I've been spearheading work on GrydPark's flagship mobile app for 2000+ active users."),
 							// (" ▪️ I'm also leading the work on some IoT hardware, using Arduino/AWS to reduce its latency to <1s!"),
