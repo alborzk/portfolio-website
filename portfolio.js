@@ -184,7 +184,7 @@ export const educationInfo = [
 export const workSection = {
 	title: "Journey",
 	resumeLink:
-		"https://drive.google.com/uc?export=view&id=1onoQ1cHst1FhILpROTqANXTIZtM88vrX",
+		"https://drive.google.com/uc?export=view&id=1_JrIvihSKEUyeewp43xkJ5QDz2lFGS-x",
 	linkedIn:
 		"https://www.linkedin.com/in/alborzk",	
 	subTitle:
@@ -195,12 +195,20 @@ export const workSection = {
 			// companylogo: "img/icons/common/Gryd.jpg",	
 			lottieAnimationFile: "/lottie/career/gryd.json",
 			positions: [
-						{
-						title: "Assistant Product Manager (Co-Op)",
-						duration: "Jan 2022 - Present",
+					{
+						title: "Junior Software Engineer (Internship)",
+						duration: "May 2023 - Present",
 						responsibilities: [
-							("My first co-op at the PropTech startup Gryd has been a ton of fun! I've been leading the work on some major projects that you'll hopefully see launched somewhere in the near future!"),
-							("Day to day, I design product wireframes, flowcharts, specs, and roadmaps to guide our development team, and collaborate cross-functionally with devs, designers, and stakeholders to meet our client's needs."),
+							("After my co-op term at the PropTech startup Gryd ended, I was offered to stay on for the summer and fill a new role to help continue developing some of the products I worked on as well as contribute full-stack code to some new ones."),
+							("I'm extremely excited to be able to share some the work I've been doing once we eventually release to the public. Stay tuned!"),
+						],
+					},	
+					{
+						title: "Assistant Product Manager (Co-Op)",
+						duration: "Jan 2023 - May 2023",
+						responsibilities: [
+							("My first co-op work term at the PropTech startup Gryd was a ton of fun! I led the work on some major projects that you'll hopefully see launched soon."),
+							("Day to day, I designed product wireframes, flowcharts, specs, and roadmaps to guide our development team, and collaborated cross-functionally with devs, designers, and stakeholders to meet our client's needs."),
 							// (" ▪️ At Gryd, I've been spearheading work on GrydPark's flagship mobile app for 2000+ active users."),
 							// (" ▪️ I'm also leading the work on some IoT hardware, using Arduino/AWS to reduce its latency to <1s!"),
 							// (" ▪️ I design product wireframes, flowcharts, specs, and roadmaps to guide development along Q1 & Q2"),
@@ -215,13 +223,13 @@ export const workSection = {
 			positions: [
 						{
 						title: "Research Assistant",
-						duration: "May 2020 - Sep 2022",
+						duration: "Summer 2020, 2021, 2022",
 						responsibilities: [
 							// (" ▪️ At AAFC, I gathered data for 20+ crop research studies, helping to develop new Agronomy methods for Canadian farmers!"),
 							// (" ▪️ I learned about agricultural fieldwork with a close-knit group of students, working together to ensure that our gathered data was accurate and collected at the appropriate time."),
 							// (" ▪️ I also composed a number of literature reviews, working directly with researchers to aid in writing scientific papers!"),
 							("At AAFC, I had the opportunity to be a part of over 30+ crop research studies, helping develop some really interesting solutions for Canadian farmers. As part of a close-knit student team, I collected crop data on the field and organized it in Excel so that it could be easily analyzed by researchers."),
-							("I was also the author 2 literature reviews, breaking down complex information concisely to help researchers write scientific papers!"),
+							("I was also the author 2 literature reviews, breaking down complex information concisely to help researchers write published papers!"),
 						],
 					}
 			],
