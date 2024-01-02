@@ -4,8 +4,8 @@ export const greetings = {
 	name: "Alborz Khakbazan",
 	title: "Welcome!",
 	desc: [
-		("Thanks for checking out my portfolio! I'm a 4th year computer science student based in Winnipeg, Canada with a wide array of programming knowledge. This website was coded using React, Next.js and Bootstrap by me! 😁"),
-		"Currently, I'm looking for co-op work for Fall 2023. Please continue reading to learn more about me!",
+		("Thanks for checking out my portfolio! I'm a 4th year computer science student based in Winnipeg, Canada with an array of programming knowledge, a background in Product, and an eye for design. This website was coded using React, Next.js and Bootstrap by me! 😁"),
+		"Currently, I'm looking for co-op work for Summer 2024. Please continue reading to learn more about me!",
 	],
 };
 
@@ -30,10 +30,10 @@ export const aboutSection = {
 	title: "The Story So Far...",
 	lottie: "/lottie/me.json",
 	desc: [
-			"I've always looked up to the big players in tech.",
-			"But growing up, I've also become more and more fascinated by the worlds of art, music, and fashion.",
-			"My goal is to bring some of the values I admire from those worlds into programming - focusing on user-oriented design that is refined, innovative, and built for your average person.",
-			"I am extremely passionate about my values, and I love working on projects that push boundaries and creative limits. I'm always looking for new opportunities to learn and grow!",
+			"I've always looked up to the big innovators in tech.",
+			"But growing up, I've also always been inspired by creatives within the worlds of music, fashion, and art.",
+			"My goal is to bring some of the values I admire from those worlds into my own work - focusing on user-oriented technologies that are refined and forward-thinking.",
+			" I'm super passionate about my values and I love working on projects that push boundaries and keep me on my toes!",
 	],		
 }
 
@@ -49,19 +49,19 @@ export const skillsSection = {
 				" ▪️ Object-oriented programming and SOLID design",
 				" ▪️ Data structures, algorithms, and space/time optimization",
 				" ▪️ Agile development, version control, issue tracking, and unit testing",
-				" ▪️ Wireframing, prototyping, and architectural design",
 			],
 			softwareSkills: [
 				{ skillName: "Java", fontAwesomeClassname: "logos:java", },
 				{ skillName: "Python", fontAwesomeClassname: "logos:python", },
-				{ skillName: "Git", fontAwesomeClassname: "logos:git-icon", },													
-				{ skillName: "Jira", fontAwesomeClassname: "logos:jira", },
+				{ skillName: "Git", fontAwesomeClassname: "logos:git-icon", },
+				{ skillName: "AWS", fontAwesomeClassname: "logos:aws", },															
+				// { skillName: "Jira", fontAwesomeClassname: "logos:jira", },
 				{ skillName: "Android Studio", fontAwesomeClassname: "logos:android-icon", },					
 				{ skillName: "Unity", fontAwesomeClassname: "logos:unity", },
-				{ skillName: "IntelliJ", fontAwesomeClassname: "logos:intellij-idea", },	
-				{ skillName: "PyCharm", fontAwesomeClassname: "logos:pycharm", },				
-				{ skillName: "JUnit5", fontAwesomeClassname: "simple-icons:junit5", },												
-				{ skillName: "Visual Basic", fontAwesomeClassname: "vscode-icons:file-type-vbproj", },																																	
+				// { skillName: "IntelliJ", fontAwesomeClassname: "logos:intellij-idea", },	
+				// { skillName: "PyCharm", fontAwesomeClassname: "logos:pycharm", },				
+				// { skillName: "JUnit5", fontAwesomeClassname: "simple-icons:junit5", },												
+				// { skillName: "Visual Basic", fontAwesomeClassname: "vscode-icons:file-type-vbproj", },																																	
 			],
 		},
 		{
@@ -76,8 +76,9 @@ export const skillsSection = {
 				{ skillName: "HTML-5", fontAwesomeClassname: "vscode-icons:file-type-html", },
 				{ skillName: "CSS-3", fontAwesomeClassname: "vscode-icons:file-type-css", },
 				{ skillName: "JavaScript", fontAwesomeClassname: "logos:javascript", },
-				// { skillName: "TypeScript", fontAwesomeClassname: "logos:typescript-icon", },				
+				{ skillName: "TypeScript", fontAwesomeClassname: "logos:typescript-icon", },				
 				{ skillName: "React", fontAwesomeClassname: "logos:react", },
+				{ skillName: "Redux", fontAwesomeClassname: "logos:redux", },		
 				{ skillName: "Bootstrap", fontAwesomeClassname: "logos:bootstrap", },				
 				{ skillName: "Tailwind", fontAwesomeClassname: "logos:tailwindcss-icon", },		
 				// { skillName: "Bulma", fontAwesomeClassname: "logos:bulma", },						
@@ -89,6 +90,21 @@ export const skillsSection = {
 			],
 		},
 		{
+			title: "Product Management",
+			lottieAnimationFile: "/lottie/skills/product.json",
+			skills: [
+				" ▪️ Led 5+ projects to release in the SaaS space, both internal tools and customer-facing features",
+				" ▪️ Experience building wireframes, prototypes, and UI kits with Figma",					
+				" ▪️ Roadmapping, sprint planning, and agile development practices with Jira and Roadmunk",
+				" ▪️ Cross-functional collaboration with designers, developers, and stakeholders",
+			],
+			softwareSkills: [
+				{ skillName: "Jira", fontAwesomeClassname: "logos:jira", },
+				{ skillName: "Confluence", fontAwesomeClassname: "logos:confluence", },
+				{ skillName: "Figma", fontAwesomeClassname: "logos:figma", },																	
+			],
+		},		
+		{
 			title: "Systems & Databases",
 			lottieAnimationFile: "/lottie/skills/systems.json",
 			skills: [
@@ -98,8 +114,7 @@ export const skillsSection = {
 					(" ▪️ Understanding of computer organization & low level programming"),			
 			],
 			softwareSkills: [
-				{ skillName: "C", fontAwesomeClassname: "noto-v1:letter-c",},
-				{ skillName: "AWS", fontAwesomeClassname: "logos:aws", },											
+				{ skillName: "C", fontAwesomeClassname: "noto-v1:letter-c",},									
 				{ skillName: "Arduino", fontAwesomeClassname: "skill-icons:arduino", },
 				{ skillName: "PowerShell", fontAwesomeClassname: "vscode-icons:file-type-powershell", },	
 				{ skillName: "SQL", fontAwesomeClassname: "vscode-icons:file-type-sql", },				
@@ -112,18 +127,6 @@ export const skillsSection = {
 				// { skillName: "Drawio", fontAwesomeClassname: "vscode-icons:file-type-drawio", },																							
 			],
 		},
-		// {
-		// 	title: "Product Management",
-		// 	lottieAnimationFile: "/lottie/skills/systems.json",
-		// 	skills: [
-		// 		" ▪️ Solid understanding of computer organization and low-level programming",
-		// 		" ▪️ Experience constructing relational databases and SQL queries",
-		// 		" ▪️ Practiced smart database design via ER diagrams and normalization",					
-		// 	],
-		// 	softwareSkills: [
-		// 		{ skillName: "Figma", fontAwesomeClassname: "logos:figma", },																	
-		// 	],
-		// },		
 		{
 			title: "On My Radar",
 			lottieAnimationFile: "/lottie/skills/radar.json",
@@ -134,8 +137,7 @@ export const skillsSection = {
 				{ skillName: "C Sharp", fontAwesomeClassname: "vscode-icons:file-type-csharp2", },				
 				{ skillName: "Django", fontAwesomeClassname: "logos:django-icon", },
 				{ skillName: "Angular", fontAwesomeClassname: "logos:angular-icon", },													
-				{ skillName: "Chakra UI", fontAwesomeClassname: "simple-icons:chakraui", },						
-				{ skillName: "Redux", fontAwesomeClassname: "logos:redux", },															
+				{ skillName: "Chakra UI", fontAwesomeClassname: "simple-icons:chakraui", },																			
 				{ skillName: "Docker", fontAwesomeClassname: "logos:docker-icon", },																													
 				// { skillName: "C Plus Plus", fontAwesomeClassname: "logos:c-plusplus", },				
 				{ skillName: "MongoDB", fontAwesomeClassname: "logos:mongodb-icon", },		
@@ -153,7 +155,7 @@ export const educationInfo = [
 		img: "/img/icons/common/um-icon.jpg",
 		schoolName: ("University of Manitoba"),
 		subHeader: "BSc. in Computer Science (Co-Op)",
-		duration: "May 2022 - Present (Feb 2025 Expected)",
+		duration: "May 2022 - Present (Aug 2024 Expected)",
 		grade: "Leader of Tomorrow Scholar",
 		grade2: "President's Scholar",
 		descBullets: [
@@ -184,30 +186,47 @@ export const educationInfo = [
 export const workSection = {
 	title: "Journey",
 	resumeLink:
-		"https://drive.google.com/uc?export=view&id=1_JrIvihSKEUyeewp43xkJ5QDz2lFGS-x",
+		// "https://drive.google.com/uc?export=view&id=1_JrIvihSKEUyeewp43xkJ5QDz2lFGS-x",
+		"https://drive.google.com/uc?export=download&id=1T9cpKEVTL83PaPrHRk-VoOhZeXMARn_s",
 	linkedIn:
 		"https://www.linkedin.com/in/alborzk",	
 	subTitle:
 		"A walkthrough of my career so far!",
 	data: [
+		{
+			company: "QDoc",
+			// companylogo: "img/icons/common/qdoc.jpg",	
+			lottieAnimationFile: "/lottie/career/qdoc2.json",
+			positions: [
+					{
+						title: "Software Developer (Co-Op)",
+						duration: "September 2023 - December 2023",
+						responsibilities: [
+							("My second co-op work term at the MedicalTech startup QDoc was a huge opportunity for me not just to continue growing my skills as a developer, but also to apply the skills I picked up working at Gryd to bring some fresh ideas QDoc's design and product!"),
+							("My biggest project here was a complete redesign of QDoc's physician portal, which I developed singlehandedly from start to finish and began as my own initiative. I redesigned over 100 files and components to help improve UI/UX across the board!"),
+							("I also helped establish new cross-team design standards by building a Figma-based UI kit, and worked on a number of other features for QDoc's web apps through engineering, testing, and integration!"),
+						],	
+					},	
+			],
+		},	
 			{
 			company: "Gryd",
 			// companylogo: "img/icons/common/Gryd.jpg",	
 			lottieAnimationFile: "/lottie/career/gryd.json",
 			positions: [
 					{
-						title: "Junior Software Engineer (Internship)",
-						duration: "May 2023 - Present",
+						title: "Junior Software Engineer",
+						duration: "May 2023 - September 2023",
 						responsibilities: [
 							("After my co-op term at the PropTech startup Gryd ended, I was offered to stay on for the summer and fill a new role to help continue developing some of the products I worked on as well as contribute full-stack code to some new ones."),
-							("I'm extremely excited to be able to share some the work I've been doing once we eventually release to the public. Stay tuned!"),
+							("I'm extremely excited for the IoT project I worked on to eventually release to the public. Stay tuned!"),
 						],
 					},	
 					{
 						title: "Assistant Product Manager (Co-Op)",
 						duration: "Jan 2023 - May 2023",
 						responsibilities: [
-							("My first co-op work term at the PropTech startup Gryd was a ton of fun! I led the work on some major projects that you'll hopefully see launched soon."),
+							("My first co-op work term at the PropTech startup Gryd was a ton of fun! I led the work on some major projects for their GrydPark division that you'll hopefully see launched soon."),
 							("Day to day, I designed product wireframes, flowcharts, specs, and roadmaps to guide our development team, and collaborated cross-functionally with devs, designers, and stakeholders to meet our client's needs."),
 							// (" ▪️ At Gryd, I've been spearheading work on GrydPark's flagship mobile app for 2000+ active users."),
 							// (" ▪️ I'm also leading the work on some IoT hardware, using Arduino/AWS to reduce its latency to <1s!"),
@@ -326,7 +345,7 @@ export const hobbies = [
 	{
 		name: "Coding!",
 		icon: "ant-design:code-twotone",
-		desc: "I really do love working on projects - including this website! Java and JavaScript are my favorite languages so far.",
+		desc: "I really do love working on projects - including this website! JavaScript & TypeScript are my favorite languages so far.",
 	},				
 ];
 
@@ -457,17 +476,17 @@ export const recommendations = [
 	// { name: "Copilot", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/copilot.png", link: "https://github.com/features/copilot" },
 	{ name: "Scribe", subtitle: "Image Capture", logo: "img/icons/common/recommendations/scribe.png", link: "https://scribehow.com/" },
 	{ name: "Gyazo", subtitle: "Image Capture", logo: "img/icons/common/recommendations/gyazo.png", link: "https://gyazo.com/" },
-	{ name: "Spark", subtitle: "Communication", logo: "img/icons/common/recommendations/spark.png", link: "https://sparkmailapp.com/"},	
-	{ name: "Typeform", subtitle: "Surveys", logo: "img/icons/common/recommendations/typeform.png", link: "https://www.typeform.com/" },
+	// { name: "Spark", subtitle: "Communication", logo: "img/icons/common/recommendations/spark.png", link: "https://sparkmailapp.com/"},	
+	// { name: "Typeform", subtitle: "Surveys", logo: "img/icons/common/recommendations/typeform.png", link: "https://www.typeform.com/" },
 	{ name: "Vercel", subtitle: "Web Hosting", logo: "img/icons/common/recommendations/vercel.jpg", link: "https://vercel.com/" },
 	{ name: "Magic Eraser", subtitle: "Utilities", logo: "img/icons/common/recommendations/eraser.svg", link: "https://www.magiceraser.io/"},
 	{ name: "Squoosh", subtitle: "Utilities", logo: "img/icons/common/recommendations/squoosh.jpg", link: "https://squoosh.app/" },	
-	{ name: "Figma", subtitle: "Prototyping", logo: "img/icons/common/recommendations/figma.png", link: "https://www.figma.com/" },
-	{ name: "Iconify", subtitle: "Resources", logo: "img/icons/common/recommendations/iconify.png", link: "https://iconify.design/" },
-	{ name: "Blush", subtitle: "Resources", logo: "img/icons/common/recommendations/blush.jpg", link: "https://blush.design/"},	
-	{ name: "Canva", subtitle: "Resources", logo: "img/icons/common/recommendations/canva.jpg", link: "https://https://www.canva.com/"},	
-	{ name: "Unsplash", subtitle: "Resources", logo: "img/icons/common/recommendations/unsplash.png", link: "https://unsplash.com/"},
-	{ name: "Dall-E", subtitle: "Resources", logo: "img/icons/common/recommendations/dalle.png", link: "https://openai.com/dall-e-2/"},
+	// { name: "Figma", subtitle: "Prototyping", logo: "img/icons/common/recommendations/figma.png", link: "https://www.figma.com/" },
+	// { name: "Iconify", subtitle: "Resources", logo: "img/icons/common/recommendations/iconify.png", link: "https://iconify.design/" },
+	// { name: "Blush", subtitle: "Resources", logo: "img/icons/common/recommendations/blush.jpg", link: "https://blush.design/"},	
+	// { name: "Canva", subtitle: "Resources", logo: "img/icons/common/recommendations/canva.jpg", link: "https://https://www.canva.com/"},	
+	// { name: "Unsplash", subtitle: "Resources", logo: "img/icons/common/recommendations/unsplash.png", link: "https://unsplash.com/"},
+	// { name: "Dall-E", subtitle: "Resources", logo: "img/icons/common/recommendations/dalle.png", link: "https://openai.com/dall-e-2/"},
 ]; 
 
 	// { name: "VSCode", subtitle: "Programming Tools", logo: "img/icons/common/recommendations/vscode.png", link: "https://code.visualstudio.com/", desc: "My favorite code editor for anything web dev!"},
@@ -506,7 +525,7 @@ export const seoData = {
 	description:
 		"A computer science student skilled in Java and Web Development.",
 	author: "Alborz Khakbazan",
-	image: "img/icons/common/selfie.jpg",
+	image: "img/icons/common/profile.jpg",
 	url: "https://alborzk.me",
 	keywords: [
 		"Alborz", "Alborz Khakbazan", "Alborz Portfolio ", "Alborz Khakbazan Portfolio", "Portfolio", "@alborzk", "alborzk",

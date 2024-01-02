@@ -37,7 +37,7 @@ const Greetings = () => {
 									<Fade right duration={2000}>
 									<div className="content-center">
 										<img
-											src={"/img/icons/common/selfie.jpg"}
+											src={"/img/icons/common/profile.jpg"}
 											style={{ width: "80%", borderRadius: "50%"}}
 											alt=""
 											className="img-center shadow--hover mt-6 mb-4 mx-4"
