@@ -13,7 +13,7 @@ const Work = () => {
 			{workSection.data.map((section, index) => {
 				return (
 					<Row className="pt-5 text-justify" key={index}>
-						<Col lg="4" className="order-2 order-lg-1">
+						<Col lg="4" className="order-2 order-lg-1 pr-4">
 							<Fade duration={2000}>
 								{/* <div className="d-flex justify-content-center flex-wrap mb-2">
 									<img
@@ -40,7 +40,25 @@ const Work = () => {
 						</Col>
 						<Col lg="8" className="order-1 order-lg-2">
 							<Fade right duration={2000}>
-								<h3 className="mb-3" id="section-title">{section.company}</h3>
+								<h3 className="mb-3" id="section-title">
+									{section.companyWebsite ? (
+									<a 
+										href={section.companyWebsite} 
+										target="_blank" 
+										rel="noopener noreferrer"
+										style={{ 
+										color: 'inherit', 
+										textDecoration: 'none',
+										borderBottom: '1px dashed',
+										paddingBottom: '2px' 
+										}}
+									>
+										{section.company}
+									</a>
+									) : (
+									section.company
+									)}
+								</h3>
 									{section.positions.map((position, i) => {
 										return (
 											<Row className="mb-4" key={index}>

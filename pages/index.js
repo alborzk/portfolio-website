@@ -25,10 +25,10 @@ export default function Home({ githubProfileData }) {
 			<Greetings id="greetings" />
 			<About id="about" />
 			<Skills id="skills" />
-			<Education id="education" />
-			<Projects id="projects" />
 			<Hobbies id="hobbies" />
 			<Work id="work" />
+			<Education id="education" />
+			<Projects id="projects" />
 			{/* <Feedbacks id="feedbacks" /> */}
 			<Recommendations id="recommendations" />
 			<GithubProfileCard id="githubProfileCard" prof={githubProfileData} />

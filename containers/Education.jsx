@@ -14,13 +14,19 @@ const Education = () => {
 				<Row className="row-grid align-items-center text-justify">
 					{educationInfo.map((info) => {
 						return (
+							<>
 							<Col
 								className="order-lg-1"
+								lg="3"
+							/>
+							<Col
+								className="order-lg-2"
 								lg="6"
 								key={info.schoolName}
 							>
 								<EducationCard education={info} />
 							</Col>
+							</>
 						);
 					})}
 				</Row>
