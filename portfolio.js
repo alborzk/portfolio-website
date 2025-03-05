@@ -234,7 +234,7 @@ export const skillsSection = {
       title: "On My Radar",
       lottieAnimationFile: "/lottie/skills/radar.json",
       skills: [
-        "Technologies I'm eager to explore in upcoming projects:",
+        "I haven't worked with these technologies yet, but I'm eager to! Hopefully you'll see them in one of the sections above soon!",
       ],
       softwareSkills: [
         { skillName: "Django", fontAwesomeClassname: "logos:django-icon" },
@@ -430,20 +430,25 @@ export const hobbies = [
 		icon: "ic:twotone-sports-basketball",		
 		desc: "I'm big into basketball, soccer, and golf - although my golf game is very much a work still in progress (lol!) ",
 	},	
-	{
-		name: "Gym",
-		icon: "la:dumbbell",		
-		desc: "I've been weightlifting for 4 years. It's not just a great way to keep healthy but also a great way to clear my head and destress.",
-	},
+	// {
+	// 	name: "Gym",
+	// 	icon: "la:dumbbell",		
+	// 	desc: "I've been weightlifting for 4 years. It's not just a great way to keep healthy but also a great way to clear my head and destress.",
+	// },
 	{
 		name: "Music",
 		icon: "ic:twotone-headphones",			
 		desc: "I collect vinyl records and listen to just about every genre of music. Ask me about my favorite albums!",
 	},	
 	{
+		name: "Videography",
+		icon: "ant-design:video-camera-twotone",			
+		desc: "On the side, I stay creative by shooting and editing videos for local events and nightlife with an old VHS camcorder.",
+	},	
+	{
 		name: "Coding!",
 		icon: "ant-design:code-twotone",
-		desc: "I really love what I do. Outside of work I like to build small projects either for my own use or to learn new tech I don't get to work with often.",
+		desc: "I really love what I do. Outside of work I like to build projects either for my own use or to learn new tech I don't get to work with often.",
 	},				
 ];
 
