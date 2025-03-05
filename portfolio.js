@@ -183,9 +183,8 @@ export const skillsSection = {
         { skillName: "React", fontAwesomeClassname: "logos:react" },
         { skillName: "Redux", fontAwesomeClassname: "logos:redux" },
         { skillName: "Vue", fontAwesomeClassname: "logos:vue" },
-
-		{ skillName: "HTML", fontAwesomeClassname: "logos:html-5" },
-        { skillName: "CSS", fontAwesomeClassname: "logos:css-3" },
+		{ skillName: "HTML=5", fontAwesomeClassname: "logos:html-5" },
+        { skillName: "CSS=3", fontAwesomeClassname: "logos:css-3" },
         { skillName: "Next", fontAwesomeClassname: "logos:nextjs-icon" },
 		{ skillName: "Mantine", fontAwesomeClassname: "logos:mantine-icon" },
 		{ skillName: "Material", fontAwesomeClassname: "logos:material-ui" },
